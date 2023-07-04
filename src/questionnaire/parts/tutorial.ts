@@ -1,8 +1,8 @@
-import exampleNewsItem from "@/data/example-news-item.json";
-import NewsItem from "@/model/news-item";
-import { TutorialTooltipStep } from "@/model/tutorial-tooltip-step";
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
-import tutorialText from "./tutorial-text";
+import exampleNewsItem from '@/data/example-news-item.json';
+import NewsItem from '@/model/news-item';
+import { TutorialTooltipStep } from '@/model/tutorial-tooltip-step';
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
+import tutorialText from './tutorial-text';
 
 const getTutorialPageForStep = (
   newsItem: NewsItem,
@@ -18,19 +18,19 @@ const getTutorialPageForStep = (
     isRequired?: boolean;
   }
 ) => {
-  const title = "Truthfulness Rating of News Items";
+  const title = 'SDG detection in a company report';
   const description =
-    "Please read the news item carefully and adjust the truthfulness rating based on the information provided.";
+    'Please read the report carefully and adjust the scales based on the information provided.';
 
   return {
     title,
     description,
     elements: [
       {
-        type: "newsitem",
+        type: 'newsitem',
         hideNumber: true,
         name: `tutorial.${step}`,
-        titleLocation: "hidden",
+        titleLocation: 'hidden',
         newsitem: newsItem,
         xaiFeatures: xaiFeatures,
         isInput: isInput,
@@ -50,52 +50,52 @@ const getTutorialPagesForNewsItem = (
     getTutorialPageForStep(newsItem, {
       isInput: true,
       xaiFeatures: xaiFeatures,
-      step: "overview",
+      step: 'overview',
     }),
     getTutorialPageForStep(newsItem, {
       isInput: false,
-      xaiFeatures: "none",
-      step: "article",
+      xaiFeatures: 'none',
+      step: 'article',
     }),
     getTutorialPageForStep(newsItem, {
       isInput: true,
-      xaiFeatures: "none",
-      step: "your-rating",
+      xaiFeatures: 'none',
+      step: 'your-rating',
       isRequired: true,
     }),
     getTutorialPageForStep(newsItem, {
       isInput: false,
       xaiFeatures: xaiFeatures,
-      step: "ai-rating",
+      step: 'ai-rating',
     }),
-    xaiFeatures === "salient" &&
+    xaiFeatures === 'salient' &&
       getTutorialPageForStep(newsItem, {
         isInput: false,
         xaiFeatures: xaiFeatures,
-        step: "readability",
+        step: 'readability',
       }),
-    xaiFeatures === "salient" &&
+    xaiFeatures === 'salient' &&
       getTutorialPageForStep(newsItem, {
         isInput: false,
         xaiFeatures: xaiFeatures,
-        step: "text-highlights",
+        step: 'text-highlights',
       }),
-    xaiFeatures === "salient" &&
+    xaiFeatures === 'salient' &&
       getTutorialPageForStep(newsItem, {
         isInput: false,
         xaiFeatures: xaiFeatures,
-        step: "sentiment-highlights",
+        step: 'sentiment-highlights',
       }),
-    xaiFeatures === "explanations" &&
+    xaiFeatures === 'explanations' &&
       getTutorialPageForStep(newsItem, {
         isInput: false,
         xaiFeatures: xaiFeatures,
-        step: "natural-language-explanation",
+        step: 'natural-language-explanation',
       }),
     getTutorialPageForStep(newsItem, {
       isInput: true,
       xaiFeatures: xaiFeatures,
-      step: "redo-your-rating",
+      step: 'redo-your-rating',
       isRequired: true,
     }),
   ];

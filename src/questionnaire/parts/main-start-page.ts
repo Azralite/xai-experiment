@@ -1,8 +1,10 @@
+// Suite de la qualification
+
 const mainStartPage = {
   elements: [
     {
-      maxWidth: "900px",
-      type: "html",
+      maxWidth: '900px',
+      type: 'html',
       html: `
         <div>
           <p style="text-align: center;"><b>Congratulations!</b></p>

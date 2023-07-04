@@ -1,6 +1,6 @@
-import Head from "next/head";
-import "survey-core/defaultV2.min.css";
-import Link from "next/link";
+import Head from 'next/head';
+import 'survey-core/defaultV2.min.css';
+import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -12,17 +12,17 @@ const Home = () => {
       </Head>
       <main
         css={{
-          fontFamily: "Inter, sans-serif",
-          color: "#1D1D1F",
-          fontSize: "16px",
-          lineHeight: "1.5",
-          padding: "32px",
+          fontFamily: 'Inter, sans-serif',
+          color: '#1D1D1F',
+          fontSize: '16px',
+          lineHeight: '1.5',
+          padding: '32px',
         }}
       >
         <h1>XAI Experiment</h1>
         <h2
           css={{
-            fontSize: "22px",
+            fontSize: '22px',
             fontWeight: 600,
           }}
         >
@@ -30,28 +30,28 @@ const Home = () => {
         </h2>
         <ul
           css={{
-            marginLeft: "16px",
+            marginLeft: '16px',
           }}
         >
           <li>
-            Basic:{" "}
-            <Link href="/basic/group-2/qualification">Qualification</Link> -{" "}
+            Basic:{' '}
+            <Link href="/basic/group-2/qualification">Qualification</Link> -{' '}
             <Link href="/basic/group-2/main">Main</Link>
           </li>
           <li>
-            Salient features:{" "}
-            <Link href="/salient/group-2/qualification">Qualification</Link> -{" "}
+            Salient features:{' '}
+            <Link href="/salient/group-2/qualification">Qualification</Link> -{' '}
             <Link href="/salient/group-2/main">Main</Link>
           </li>
           <li>
-            Natural language explanation:{" "}
+            Natural language explanation:{' '}
             <Link href="/explanations/group-2/qualification">
               Qualification
-            </Link>{" "}
+            </Link>{' '}
             - <Link href="/explanations/group-2/main">Main</Link>
           </li>
           <li>
-            Random:{" "}
+            Random:{' '}
             <Link href="/random">
               (group: 1/2, feature: salient/explanations)
             </Link>
@@ -59,41 +59,61 @@ const Home = () => {
         </ul>
         <h2
           css={{
-            fontSize: "22px",
+            fontSize: '22px',
             fontWeight: 600,
-            marginTop: "32px",
+            marginTop: '32px',
           }}
         >
           Experimental part only
         </h2>
         <ul
           css={{
-            marginLeft: "16px",
+            marginLeft: '16px',
           }}
         >
           <li>
-            Basic:{" "}
+            Basic:{' '}
             <Link href="/basic/group-2/qualification?experimentOnly=true">
               Qualification
-            </Link>{" "}
+            </Link>{' '}
             - <Link href="/basic/group-2/main?experimentOnly=true">Main</Link>
           </li>
           <li>
-            Salient features:{" "}
+            Salient features:{' '}
             <Link href="/salient/group-2/qualification?experimentOnly=true">
               Qualification
-            </Link>{" "}
+            </Link>{' '}
             - <Link href="/salient/group-2/main?experimentOnly=true">Main</Link>
           </li>
           <li>
-            Natural language explanation:{" "}
+            Natural language explanation:{' '}
             <Link href="/explanations/group-2/qualification?experimentOnly=true">
               Qualification
-            </Link>{" "}
-            -{" "}
+            </Link>{' '}
+            -{' '}
             <Link href="/explanations/group-2/main?experimentOnly=true">
               Main
             </Link>
+          </li>
+        </ul>
+        <h2
+          css={{
+            fontSize: '22px',
+            fontWeight: 600,
+            marginTop: '32px',
+          }}
+        >
+          Paul test
+        </h2>
+        <ul
+          css={{
+            marginLeft: '16px',
+          }}
+        >
+          <li>
+            Basic:{' '}
+            <Link href="/basic/group-1/qualification">Qualification</Link> -{' '}
+            <Link href="/basic/group-1/main">Main</Link>
           </li>
         </ul>
       </main>

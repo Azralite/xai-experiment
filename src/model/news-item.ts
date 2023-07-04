@@ -6,10 +6,11 @@ interface NewsItem {
   source: string;
   category?: string;
   publishingDate: string;
-  label: "fake" | "true";
+  label: 'fake' | 'true';
   xaiFeatures: {
-    truthfulness: number;
-    readability: "easy" | "medium" | "hard";
+    sdg1: number;
+    factuality: 'easy' | 'medium' | 'hard';
+    tense: string;
     highlightedContent: string;
     naturalLanguageExplanation: string;
   };

@@ -1,8 +1,10 @@
+// Fini
+
 const personalCode = {
   elements: [
     {
-      maxWidth: "900px",
-      type: "html",
+      maxWidth: '900px',
+      type: 'html',
       html: `
         <div>
           <p>
@@ -33,12 +35,12 @@ const personalCode = {
     `,
     },
     {
-      maxWidth: "900px",
-      type: "text",
-      name: "personal-code",
-      title: "Please enter your personal code:",
+      maxWidth: '900px',
+      type: 'text',
+      name: 'personal-code',
+      title: 'Please enter your personal code:',
       hideNumber: true,
-      placeHolder: "e.g. MLT93",
+      placeHolder: 'e.g. MLT93',
     },
   ],
 };

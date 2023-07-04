@@ -1,24 +1,27 @@
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
+// MaJ : 02/07/2023
+// RaF : Valider avec Vera
+
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
 
 const tutorialText = (xaiFeatures: XAIFeatureLevel) => {
   return {
-    name: "tutorial-text",
+    name: 'tutorial-text',
     elements: [
       {
-        maxWidth: "900px",
-        type: "html",
+        maxWidth: '900px',
+        type: 'html',
         html: `
         <div>
           <p>
-            <b>Explanations for the Truthfulness Assessment Task of News</b>
+            <b>Explanations for the SDG detect task</b>
           </p>
           </br>
           <p>
-            In the following, you will receive eight news articles which you should rate according to their truthfulness. The news articles are presented in the <b>News Dashboard</b>, consisting of several <b>AI-system components</b>. Which will be described later in more detail. Your tasks, rating the news article according to their truthfulness is divided into <b>three steps</b>: 
+            In the following, you will receive eight company's reports which you should rate the presence of each SDG. The company's reports are presented in the <b>News Dashboard</b>, consisting of several <b>AI-system components</b>. Which will be described later in more detail. Your tasks, rating the presence of SDG in a text is divided into <b>three steps</b>: 
           </p>
           </br>
           <p>
-            <b>Step 1 -  Read and Rate:</b> Read the news item and rate it
+            <b>Step 1 -  Read and Rate:</b> Read the news item and rate it for each SDG
           </p>
           </br>
           <p>
@@ -26,12 +29,9 @@ const tutorialText = (xaiFeatures: XAIFeatureLevel) => {
           </p>
           </br>
           <p>
-            <b>Step 3 - Repeat Rating:</b> You are asked to repeat your truthfulness rating
+            <b>Step 3 - Repeat Rating:</b> You are asked to repeat your ratings
           </p>
           </br>
-          <p>
-            Overall, there are two sources of news articles: (1) a trustworthy source publishing mostly true articles and (2) an untrustworthy source, publishing mostly misleading and false articles.
-          </p>
           </br>
           <p>
             In the following an introduction to the task will be shown, with more detailed descriptions for each step. Please read it carefully, before the actual task starts.

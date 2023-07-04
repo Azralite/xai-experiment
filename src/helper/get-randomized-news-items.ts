@@ -1,20 +1,21 @@
-import data from "@/data/news-items.json";
-import NewsItem from "@/model/news-item";
-import { SurveyPart } from "@/model/survey-part";
+import data from '@/data/news-items.json';
+import NewsItem from '@/model/news-item';
+import { SurveyPart } from '@/model/survey-part';
 
 const getRandomizedNewsItems = (
   group: number,
   part: SurveyPart
 ): NewsItem[] => {
   switch (part) {
-    case "qualification": {
+    // Si on est dans la partie qualification : on va récup les textes group 2 et isQualification a true
+    case 'qualification': {
       const groupItems = data.filter((item) => {
         return item.group === group && item.isQualification;
       }) as NewsItem[];
 
       console.assert(
         groupItems.length === 2,
-        "There should be 2 items in the qualification part"
+        'There should be 2 items in the qualification part'
       );
 
       // randomize the order of the items
@@ -22,7 +23,10 @@ const getRandomizedNewsItems = (
 
       return groupItems;
     }
-    case "main": {
+
+    // Si on est dans la partie main : on va récup les textes group 2 et isQualifiaction a false
+    // En plus on va ajouter un faux positif et un vrai négatif
+    case 'main': {
       const groupItems = data.filter((item) => {
         return item.group === group && !item.isQualification;
       }) as NewsItem[];
@@ -40,12 +44,15 @@ const getRandomizedNewsItems = (
 
       console.assert(
         groupItems.length === 6,
-        "There should be 6 items in the main part"
+        'There should be 6 items in the main part'
       );
 
       return groupItems;
     }
-    case "merged": {
+
+    // Si on est dans merge : on prend juste un item de notre groupe
+    // Plus un faux positif et un vrai négatif
+    case 'merged': {
       const groupItems = data.filter((item) => {
         return item.group === group;
       }) as NewsItem[];
@@ -67,7 +74,7 @@ const getRandomizedNewsItems = (
 
       console.assert(
         groupItems.length === 8,
-        "There should be 8 items in the main part"
+        'There should be 8 items in the main part'
       );
 
       return groupItems;

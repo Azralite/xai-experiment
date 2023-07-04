@@ -1,8 +1,9 @@
-import XAIQuestionnaire from "@/components/XAIQuestionnaire";
-import getRandomizedNewsItems from "@/helper/get-randomized-news-items";
-import { SurveyPart } from "@/model/survey-part";
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
+import XAIQuestionnaire from '@/components/XAIQuestionnaire';
+import getRandomizedNewsItems from '@/helper/get-randomized-news-items';
+import { SurveyPart } from '@/model/survey-part';
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
 
+// Ici on va recupérer les valeurs dans l'URL pour déterminer les props
 const Home = ({
   features,
   group,
@@ -13,15 +14,16 @@ const Home = ({
   part: SurveyPart;
 }) => {
   // parse group number from group string
-  const groupNumber = parseInt(group.split("-")[1]);
+  const groupNumber = parseInt(group.split('-')[1]);
   const newsItems = getRandomizedNewsItems(groupNumber, part);
+  console.log(newsItems);
 
   return (
     <XAIQuestionnaire
-      newsItems={newsItems}
-      xaiFeature={features}
-      groupNumber={groupNumber}
-      part={part}
+      newsItems={newsItems} // La liste des news
+      xaiFeature={features} // La feature dans laquelle on est
+      groupNumber={groupNumber} // Notre groupe
+      part={part} // La partie dans laquelle on est
     />
   );
 };
@@ -29,9 +31,9 @@ const Home = ({
 export default Home;
 
 export const getStaticPaths = async () => {
-  const features = ["basic", "salient", "explanations"];
+  const features = ['basic', 'salient', 'explanations'];
   const groups = [2].map((group) => `group-${group}`);
-  const parts = ["qualification", "main"];
+  const parts = ['qualification', 'main'];
 
   const paths = features.flatMap((features) => {
     return groups.flatMap((group) => {

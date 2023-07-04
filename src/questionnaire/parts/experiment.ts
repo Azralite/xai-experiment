@@ -1,16 +1,16 @@
-import { agreementLikert7 } from "@/helper/likert-scales";
-import NewsItem from "@/model/news-item";
-import { SurveyPart } from "@/model/survey-part";
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
+import { agreementLikert7 } from '@/helper/likert-scales';
+import NewsItem from '@/model/news-item';
+import { SurveyPart } from '@/model/survey-part';
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
 
 const getPagesForNewsItem = (
   newsItem: NewsItem,
   xaiFeatures: XAIFeatureLevel,
   part: SurveyPart
 ) => {
-  const title = "Truthfulness Rating of News Items";
+  const title = 'SDG detection in report';
   const description =
-    "Please read the news item carefully and adjust the truthfulness rating based on the information provided.";
+    'Please read the news item carefully and adjust the SDG sliders based on the information provided.';
 
   return [
     {
@@ -18,27 +18,27 @@ const getPagesForNewsItem = (
       description,
       elements: [
         {
-          type: "newsitem",
+          type: 'newsitem',
           name: `newsitem.${newsItem.id}.rating-before-xai`,
           hideNumber: true,
-          titleLocation: "hidden",
+          titleLocation: 'hidden',
           newsitem: newsItem,
-          xaiFeatures: "none",
+          xaiFeatures: 'none',
           isInput: true,
           isRequired: true,
         },
       ],
     },
     {
-      name: "article-with-xai",
+      name: 'article-with-xai',
       title,
       description,
       elements: [
         {
-          type: "newsitem",
+          type: 'newsitem',
           name: `newsitem.${newsItem.id}.article-with-xai`,
           hideNumber: true,
-          titleLocation: "hidden",
+          titleLocation: 'hidden',
           newsitem: newsItem,
           xaiFeatures: xaiFeatures,
           isInput: false,
@@ -50,10 +50,10 @@ const getPagesForNewsItem = (
       description,
       elements: [
         {
-          type: "newsitem",
+          type: 'newsitem',
           name: `newsitem.${newsItem.id}.rating-after-xai`,
           hideNumber: true,
-          titleLocation: "hidden",
+          titleLocation: 'hidden',
           newsitem: newsItem,
           xaiFeatures: xaiFeatures,
           isInput: true,
@@ -62,21 +62,21 @@ const getPagesForNewsItem = (
       ],
     },
     {
-      name: "control-question",
+      name: 'control-question',
       title,
       description,
       elements: [
         {
           // multiple choice control question
-          type: "radiogroup",
+          type: 'radiogroup',
           name: `newsitem.${newsItem.id}.control-question`,
           title: newsItem.controlQuestion.question,
           hideNumber: true,
-          choicesOrder: "random",
+          choicesOrder: 'random',
           isRequired: true,
           choices: [
             {
-              value: "correct",
+              value: 'correct',
               text: newsItem.controlQuestion.correctAnswer,
             },
             ...newsItem.controlQuestion.wrongAnswers.map((answer, i) => ({
@@ -84,58 +84,58 @@ const getPagesForNewsItem = (
               text: answer,
             })),
           ],
-          correctAnswer: "correct",
+          correctAnswer: 'correct',
         },
       ],
     },
     {
-      title: "Evaluate the system",
+      title: 'Evaluate the system',
       description:
-        "Evaluate the AI system based on the explanations it provided",
+        'Evaluate the AI system based on the explanations it provided',
       elements: [
         {
-          type: "matrix",
+          type: 'matrix',
           name: `newsitem.${newsItem.id}.system-evaluation`,
-          title: "Competence",
+          title: 'Competence',
           hideNumber: true,
-          titleLocation: "hidden",
+          titleLocation: 'hidden',
           columns: agreementLikert7,
           alternateRows: true,
           isAllRowRequired: true,
           rows: [
             {
-              text: "The AI-System classified the news items correctly",
-              value: "classified-correctly",
+              text: 'The AI-System classified the news items correctly',
+              value: 'classified-correctly',
             },
             {
-              text: "I understand what the AI-System does",
-              value: "understand-what-system-does",
+              text: 'I understand what the AI-System does',
+              value: 'understand-what-system-does',
             },
             {
-              text: "The explainability features presented are useful to assess the truthfulness of the news article",
-              value: "xai-features-useful",
+              text: 'The explainability features presented are useful to assess the truthfulness of the news article',
+              value: 'xai-features-useful',
             },
             {
-              text: "The indications given by the AI-System are useful to assess the truthfulness of the news article",
-              value: "indications-useful",
+              text: 'The indications given by the AI-System are useful to assess the truthfulness of the news article',
+              value: 'indications-useful',
             },
             {
-              text: "The presented explanations are comprehensible and help me with assessing the news articles",
-              value: "explanations-comprehensible-and-help-assess",
+              text: 'The presented explanations are comprehensible and help me with assessing the news articles',
+              value: 'explanations-comprehensible-and-help-assess',
             },
           ],
         },
       ],
     },
-    part === "main"
+    part === 'main'
       ? {
           // show warning if control question was answered incorrectly
-          name: "control-question-warning",
+          name: 'control-question-warning',
           visibleIf: `{newsitem.${newsItem.id}.control-question} != 'correct'`,
           elements: [
             {
-              type: "html",
-              maxWidth: "900px",
+              type: 'html',
+              maxWidth: '900px',
               html: `<div>
           <b>Attention</b>: you entered an incorrect answer to the control question! In order to receive the <b>bonus of 5 €</b> you need to answer at least <b>5 control questions correctly!</b> Please read the news items carefully.
           </div>`,
@@ -143,7 +143,7 @@ const getPagesForNewsItem = (
           ],
         }
       : {
-          visibleIf: "false",
+          visibleIf: 'false',
         },
   ];
 };

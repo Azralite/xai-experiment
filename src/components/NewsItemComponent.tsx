@@ -1,9 +1,11 @@
-import NewsItem from "@/model/news-item";
-import { TutorialTooltipStep } from "@/model/tutorial-tooltip-step";
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
-import { useState } from "react";
-import ThuthfulnessSlider from "./TruthfulnessSlider";
-import TutorialTooltip from "./TutorialTooltip";
+import NewsItem from '@/model/news-item';
+import { TutorialTooltipStep } from '@/model/tutorial-tooltip-step';
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
+import { useState } from 'react';
+import ThuthfulnessSlider from './TruthfulnessSlider';
+import TutorialTooltip from './TutorialTooltip';
+
+// C'est ici qu'on va avoir les toolTips
 
 const NewsItemComponent = ({
   newsItem,
@@ -28,22 +30,24 @@ const NewsItemComponent = ({
     defaultRatingValue
   );
 
+  // Ici on remplace les balises des textes pour en faire des balises HTML
   const xaiHighlight = (content: string) => {
     return content
       .replace(/<mark>/g, "<span class='xai-highlight'>")
-      .replace(/<\/mark>/g, "</span>")
+      .replace(/<\/mark>/g, '</span>')
       .replace(/<sentiment>/g, "<span class='sentiment-highlight'>")
-      .replace(/<\/sentiment>/g, "</span>");
+      .replace(/<\/sentiment>/g, '</span>');
   };
 
+  // Ici on récuper les phrases qui sont balisé pour les afficher sur la droite
   const getHighlightedSentences = (highlightedContent: string) => {
     const sentences = highlightedContent.match(/<mark>(.*?)<\/mark>/g);
 
     if (sentences) {
       return sentences.map((sentence) => {
         return sentence
-          .replace(/<\/?mark>/g, "")
-          .replace(/<\/?sentiment>/g, "");
+          .replace(/<\/?mark>/g, '')
+          .replace(/<\/?sentiment>/g, '');
       });
     } else {
       return [];
@@ -58,8 +62,8 @@ const NewsItemComponent = ({
     if (sentences) {
       return sentences.map((sentence) => {
         return sentence
-          .replace(/<\/?sentiment>/g, "")
-          .replace(/<\/?mark>/g, "");
+          .replace(/<\/?sentiment>/g, '')
+          .replace(/<\/?mark>/g, '');
       });
     } else {
       return [];
@@ -67,98 +71,102 @@ const NewsItemComponent = ({
   };
 
   return (
+    // La section correspond à la zone entiere
     <section
       css={{
-        fontFamily: "Inter, sans-serif",
-        color: "#1D1D1F",
-        whiteSpace: "normal",
+        fontFamily: 'Inter, sans-serif',
+        color: '#1D1D1F',
+        whiteSpace: 'normal',
 
-        display: "grid",
-        gridTemplateColumns: "minmax(58%, 1fr) minmax(380px, 1fr)",
-        gap: "32px",
+        display: 'grid',
+        gridTemplateColumns: 'minmax(58%, 1fr) minmax(380px, 1fr)',
+        gap: '32px',
 
-        "@media (max-width: 1100px)": {
-          gridTemplateColumns: "1fr",
+        '@media (max-width: 1100px)': {
+          gridTemplateColumns: '1fr',
         },
 
-        ".container": {
-          backgroundColor: "#FBFBFB",
-          borderRadius: "8px",
-          padding: "20px",
-          minWidth: "380px",
+        '.container': {
+          backgroundColor: '#FBFBFB',
+          borderRadius: '8px',
+          padding: '20px',
+          minWidth: '380px',
 
           h1: {
-            fontSize: "18px",
+            fontSize: '18px',
             fontWeight: 600,
           },
 
           h2: {
-            fontSize: "14px",
-            color: "#4F4F4F",
+            fontSize: '14px',
+            color: '#4F4F4F',
             fontWeight: 600,
-            marginBottom: "8px",
+            marginBottom: '8px',
           },
 
-          ".line": {
-            width: "100%",
-            height: "1px",
-            backgroundColor: "#E5E5E5",
-            margin: "20px 0",
+          '.line': {
+            width: '100%',
+            height: '1px',
+            backgroundColor: '#E5E5E5',
+            margin: '20px 0',
           },
         },
       }}
     >
-      {tutorialTooltip === "overview" && (
+      {/* Premier tool tip */}
+      {tutorialTooltip === 'overview' && (
         <TutorialTooltip>
           <b>News Dashboard:</b> In the following we will walk you through the
           different parts of the <b>News Dashboard</b> and introduce you to the
           different steps of your task. Please click next.
         </TutorialTooltip>
       )}
+      {/* Ici aussi on est dans la zone de texte */}
       <article
         css={{
-          position: "relative",
+          position: 'relative',
+
           h1: {
-            fontSize: "30px",
-            marginBottom: "8px",
+            fontSize: '30px',
+            marginBottom: '8px',
           },
           h2: {
-            fontSize: "18px",
-            color: "#4F4F4F",
+            fontSize: '18px',
+            color: '#4F4F4F',
             fontWeight: 500,
-            marginBottom: "24px",
+            marginBottom: '24px',
           },
           h3: {
-            fontSize: "14px",
+            fontSize: '14px',
             fontWeight: 500,
-            marginBottom: "24px",
+            marginBottom: '24px',
           },
           p: {
-            fontSize: "16px",
-            lineHeight: "24px",
+            fontSize: '16px',
+            lineHeight: '24px',
           },
-          ".xai-highlight": {
-            backgroundColor: "#FFE826",
+          '.xai-highlight': {
+            backgroundColor: '#FFE826',
           },
-          ".sentiment-highlight": {
-            backgroundColor: "#00FEFE",
+          '.sentiment-highlight': {
+            backgroundColor: '#00FEFE',
           },
         }}
       >
-        {tutorialTooltip === "article" && (
+        {tutorialTooltip === 'article' && (
           <TutorialTooltip>
             <b>Step 1 - Read and Rate:</b> During step 1 (<b>Read</b>) you are
             asked to read the news item carefully. You see here how the news
-            items are presented to you, with the title and the domain (here{" "}
+            items are presented to you, with the title and the domain (here{' '}
             {newsItem.category}) where it is written in. Please click next.
           </TutorialTooltip>
         )}
         <div
           css={{
-            fontSize: "14px",
-            marginBottom: "12px",
+            fontSize: '14px',
+            marginBottom: '12px',
             fontWeight: 700,
-            color: "#0055F6",
+            color: '#0055F6',
           }}
         >
           {newsItem.category}
@@ -169,59 +177,71 @@ const NewsItemComponent = ({
         <p
           dangerouslySetInnerHTML={{
             __html:
-              xaiFeatures === "salient"
+              xaiFeatures === 'salient'
                 ? xaiHighlight(newsItem.xaiFeatures.highlightedContent)
                 : newsItem.content,
           }}
           css={{
-            textAlign: "justify",
+            textAlign: 'justify',
           }}
         ></p>
       </article>
+
+      {/* La on est dans la zone de droite */}
       <aside
         css={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "40px",
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '40px',
         }}
       >
-        {xaiFeatures !== "none" && (
+        {xaiFeatures !== 'none' && (
           <section
             className="container"
             css={{
-              height: "100%",
-              border: "1px solid #E5E5E5",
-              background: "transparent",
+              height: '100%',
+              border: '1px solid #E5E5E5',
+              background: 'transparent',
             }}
           >
-            <h1>AI-System Truthfulness Rating</h1>
+            <h1>AI-System SDG Detection</h1>
             <div className="line"></div>
             <div
               css={{
-                display: "flex",
-                gap: "8px",
-                position: "relative",
+                display: 'flex',
+                gap: '8px',
+                position: 'relative',
               }}
             >
-              {tutorialTooltip === "ai-rating" && (
+              {tutorialTooltip === 'ai-rating' && (
                 <TutorialTooltip>
-                  <b>Step 2 - Inform:</b> During step 2 you see the truthfulness
-                  rating of the <b>AI-System</b> running in the background.
+                  <b>Step 2 - Inform:</b> During step 2 you see the SDG rating
+                  of the <b>AI-System</b> running in the background.
                   Furthermore, you see the publishing date and the source of the
-                  source of the news item displayed below. Please check the{" "}
+                  source of the news item displayed below. Please check the{' '}
                   <b>AI-generated</b> rating and the additional information
                   carefully and click next.
                 </TutorialTooltip>
               )}
-              <h2>Truthfulness</h2>
-              <ThuthfulnessSlider
-                initialScore={newsItem.xaiFeatures.truthfulness}
-              />
+              <div
+                className="sliders"
+                css={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '20px',
+                  width: '100%',
+                }}
+              >
+                <h2>SGD 1</h2>
+                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg1} />
+                <h2>SGD 2</h2>
+                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg2} />
+              </div>
             </div>
             <div className="line"></div>
             <div
               css={{
-                display: "flex",
+                display: 'flex',
               }}
             >
               <div
@@ -238,91 +258,96 @@ const NewsItemComponent = ({
               >
                 <h2>Source</h2> {newsItem.source}
               </div>
+              <div
+                css={{
+                  flex: 1,
+                }}
+              >
+                <h2>Tense</h2> {newsItem.xaiFeatures.tense} : 0.3
+              </div>
             </div>
-            {xaiFeatures === "salient" && (
+            {xaiFeatures === 'salient' && (
               <>
                 <div className="line"></div>
                 <div
                   css={{
-                    gap: "8px",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    position: "relative",
+                    gap: '8px',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    position: 'relative',
                   }}
                 >
-                  {tutorialTooltip === "readability" && (
+                  {tutorialTooltip === 'readability' && (
                     <TutorialTooltip>
-                      <b>Step 2 - Inform Readability:</b> The{" "}
+                      <b>Step 2 - Inform Readability:</b> The{' '}
                       <b>explainability feature 1 - readability</b> of the
                       source is displayed here. There are three readability
-                      categories: Easy, Medium, and Hard. The <b>AI-System</b>{" "}
+                      categories: Easy, Medium, and Hard. The <b>AI-System</b>{' '}
                       in the background automatically classifies the news
                       article in one of the categories. Please click next.
                     </TutorialTooltip>
                   )}
-                  <h2>
-                    Explainability Feature 1: Readability of the news article
-                  </h2>
+                  <h2>Explainability Feature 1: Factuality of the report</h2>
                   <div
                     css={{
-                      display: "flex",
-                      width: "340px",
-                      height: "36px",
+                      display: 'flex',
+                      width: '340px',
+                      height: '36px',
 
-                      ".level": {
+                      '.level': {
                         flex: 1,
-                        height: "100%",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        border: "1px solid #E5E5E5",
-                        fontSize: "14px",
+                        height: '100%',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        border: '1px solid #E5E5E5',
+                        fontSize: '14px',
                       },
 
-                      ".selected": {
-                        border: "1px solid #7F7F7F !important",
-                        backgroundColor: "#F3F3F3",
+                      '.selected': {
+                        border: '1px solid #7F7F7F !important',
+                        backgroundColor: '#F3F3F3',
                         fontWeight: 500,
                       },
                     }}
                   >
                     <div
                       className={`level ${
-                        newsItem.xaiFeatures.readability === "easy"
-                          ? "selected"
-                          : ""
+                        newsItem.xaiFeatures.factuality === 'easy'
+                          ? 'selected'
+                          : ''
                       }`}
                       css={{
-                        borderRight: "none !important",
-                        borderRadius: "4px 0 0 4px",
+                        borderRight: 'none !important',
+                        borderRadius: '4px 0 0 4px',
                       }}
                     >
                       Easy
                     </div>
                     <div
                       className={`level ${
-                        newsItem.xaiFeatures.readability === "medium"
-                          ? "selected"
-                          : ""
+                        newsItem.xaiFeatures.factuality === 'medium'
+                          ? 'selected'
+                          : ''
                       }`}
                       css={[
-                        newsItem.xaiFeatures.readability === "easy" &&
-                          "border-left: none !important",
-                        newsItem.xaiFeatures.readability === "hard" &&
-                          "border-right: none !important",
+                        newsItem.xaiFeatures.factuality === 'easy' &&
+                          'border-left: none !important',
+                        newsItem.xaiFeatures.factuality === 'hard' &&
+                          'border-right: none !important',
                       ]}
                     >
                       Medium
                     </div>
                     <div
                       className={`level ${
-                        newsItem.xaiFeatures.readability === "hard"
-                          ? "selected"
-                          : ""
+                        newsItem.xaiFeatures.factuality === 'hard'
+                          ? 'selected'
+                          : ''
                       }`}
                       css={{
-                        borderLeft: "none !important",
-                        borderRadius: "0 4px 4px 0",
+                        borderLeft: 'none !important',
+                        borderRadius: '0 4px 4px 0',
                       }}
                     >
                       Hard
@@ -332,16 +357,16 @@ const NewsItemComponent = ({
                 <div className="line"></div>
                 <div
                   css={{
-                    position: "relative",
+                    position: 'relative',
                   }}
                 >
-                  {tutorialTooltip === "text-highlights" && (
+                  {tutorialTooltip === 'text-highlights' && (
                     <TutorialTooltip>
-                      <b>Step 2 - Inform Text Highlights:</b> The{" "}
+                      <b>Step 2 - Inform Text Highlights:</b> The{' '}
                       <b>
                         explainability feature 2 - the text highlighted in
                         yellow,
-                      </b>{" "}
+                      </b>{' '}
                       are the statements that support the truthfulness rating of
                       the <b>AI-System</b>. The <b>AI-System</b> in the
                       background automatically marks the sentences where the
@@ -350,7 +375,7 @@ const NewsItemComponent = ({
                   )}
                   <h2>
                     Explainability Feature 2: Text passages, where the
-                    AI-System&apos;s truthfulness rating is based on
+                    AI-System&apos;s SDG detection is based on (for SDG 7)
                   </h2>
                   <div>
                     {getHighlightedSentences(
@@ -359,10 +384,10 @@ const NewsItemComponent = ({
                       <blockquote
                         key={index}
                         css={{
-                          borderLeft: "6px solid #FFE826",
-                          padding: "8px",
-                          margin: "8px 0",
-                          backgroundColor: "#FFE8261A",
+                          borderLeft: '6px solid #FFE826',
+                          padding: '8px',
+                          margin: '8px 0',
+                          backgroundColor: '#FFE8261A',
                         }}
                       >
                         {sentence}
@@ -373,13 +398,13 @@ const NewsItemComponent = ({
                 <div className="line"></div>
                 <div
                   css={{
-                    position: "relative",
+                    position: 'relative',
                   }}
                 >
-                  {tutorialTooltip === "sentiment-highlights" && (
+                  {tutorialTooltip === 'sentiment-highlights' && (
                     <TutorialTooltip>
-                      <b>Step 2 - Inform Sentiment Highlights:</b> The{" "}
-                      <b>explainability feature 3 - text highlighted in blue</b>{" "}
+                      <b>Step 2 - Inform Sentiment Highlights:</b> The{' '}
+                      <b>explainability feature 3 - text highlighted in blue</b>{' '}
                       are the words and phrases containing emotional content.
                       Sometimes fake news rely on emotional speech to engage the
                       reader emotionally. The <b>AI-System</b> in the background
@@ -388,14 +413,14 @@ const NewsItemComponent = ({
                     </TutorialTooltip>
                   )}
                   <h2>
-                    Explainability Feature 3: Words and phrases referring to
-                    emotional content
+                    Explainability Feature 3: Text passages, where the
+                    AI-System&apos;s SDG detection is based on (for SDG 5)
                   </h2>
                   <div
                     css={{
-                      display: "flex",
-                      gap: "8px",
-                      flexWrap: "wrap",
+                      display: 'flex',
+                      gap: '8px',
+                      flexWrap: 'wrap',
                     }}
                   >
                     {getSentimentHighlights(
@@ -404,9 +429,9 @@ const NewsItemComponent = ({
                       <blockquote
                         key={index}
                         css={{
-                          borderLeft: "6px solid #00FEFE",
-                          padding: "8px",
-                          backgroundColor: "#00FEFE1A",
+                          borderLeft: '6px solid #00FEFE',
+                          padding: '8px',
+                          backgroundColor: '#00FEFE1A',
                         }}
                       >
                         {sentence}
@@ -416,18 +441,18 @@ const NewsItemComponent = ({
                 </div>
               </>
             )}
-            {xaiFeatures === "explanations" && (
+            {xaiFeatures === 'explanations' && (
               <>
                 <div className="line"></div>
                 <div
                   css={{
-                    position: "relative",
+                    position: 'relative',
                   }}
                 >
-                  {tutorialTooltip === "natural-language-explanation" && (
+                  {tutorialTooltip === 'natural-language-explanation' && (
                     <TutorialTooltip>
-                      <b>Step 2 - Inform Natural Language Explanation:</b> The{" "}
-                      <b>explainability feature, text highlighted in pink</b>{" "}
+                      <b>Step 2 - Inform Natural Language Explanation:</b> The{' '}
+                      <b>explainability feature, text highlighted in pink</b>{' '}
                       contains an explanation about the truthfulness of the news
                       item. The <b>AI-System</b> in the background automatically
                       generates this <b>natural language explanation</b>, which
@@ -438,10 +463,10 @@ const NewsItemComponent = ({
                   <h2>Explainability Feature: Natural language explanation</h2>
                   <blockquote
                     css={{
-                      borderLeft: "6px solid #FF6FFF",
-                      padding: "8px",
-                      margin: "8px 0",
-                      backgroundColor: "#FF6FFF1A",
+                      borderLeft: '6px solid #FF6FFF',
+                      padding: '8px',
+                      margin: '8px 0',
+                      backgroundColor: '#FF6FFF1A',
                     }}
                   >
                     {newsItem.xaiFeatures.naturalLanguageExplanation}
@@ -452,17 +477,18 @@ const NewsItemComponent = ({
           </section>
         )}
       </aside>
+
       {isInput && (
         <div
           className="container"
           css={{
-            border: !showError ? "1px solid #19B394" : "1px solid #E60A3E",
+            border: !showError ? '1px solid #19B394' : '1px solid #E60A3E',
             flex: 1,
-            minWidth: "58%",
-            position: "relative",
+            minWidth: '58%',
+            position: 'relative',
           }}
         >
-          {tutorialTooltip === "your-rating" && (
+          {tutorialTooltip === 'your-rating' && (
             <TutorialTooltip>
               <b>Step 1 - Read and Rate:</b> During step 1 (<b>Rate</b>) you are
               asked to perform your own truthfulness rating based on the news
@@ -471,10 +497,10 @@ const NewsItemComponent = ({
               click next.
             </TutorialTooltip>
           )}
-          {tutorialTooltip === "redo-your-rating" && (
+          {tutorialTooltip === 'redo-your-rating' && (
             <TutorialTooltip>
               <b>Step 3 - Repeat Rating:</b> You are asked to redo your
-              truthfulness rating again, by taking the{" "}
+              truthfulness rating again, by taking the{' '}
               <b>additional information</b> on the right side into account.
               Please notice, <b>there is no right and wrong</b>, feel free to
               change your original rating in accordance to the new insights you
@@ -486,19 +512,38 @@ const NewsItemComponent = ({
           <div className="line"></div>
           <div
             css={{
-              display: "flex",
-              gap: "8px",
+              display: 'flex',
+              gap: '8px',
             }}
           >
-            <h2>Truthfulness</h2>
-            <ThuthfulnessSlider
-              initialScore={ratingValue}
-              interactive
-              onChange={(score) => {
-                setRatingValue(score);
-                onRatingChange(score);
+            <div
+              className="sliders"
+              css={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '20px',
+                width: '100%',
               }}
-            />
+            >
+              <h2>SDG 1</h2>
+              <ThuthfulnessSlider
+                initialScore={ratingValue}
+                interactive
+                onChange={(score) => {
+                  setRatingValue(score);
+                  onRatingChange(score);
+                }}
+              />
+              <h2>SDG 2</h2>
+              <ThuthfulnessSlider
+                initialScore={ratingValue}
+                interactive
+                onChange={(score) => {
+                  setRatingValue(score);
+                  onRatingChange(score);
+                }}
+              />
+            </div>
           </div>
         </div>
       )}

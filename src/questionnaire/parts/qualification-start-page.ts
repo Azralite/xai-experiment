@@ -1,14 +1,20 @@
+// Première page, affiche les infos sur l'experience
+// Demande le consentement avant de passer à la suite
+
+// MaJ : 02/07/23
+// RaF : Rien / relecture
+
 const qualificationStartPage = {
   elements: [
     {
-      maxWidth: "900px",
-      type: "html",
+      maxWidth: '900px',
+      type: 'html',
       html: `
         <div>
           <p style="text-align: center;">Welcome to the <b>"XAI Evaluation"</b> Experiment!</p>
           </br>
           <p>
-          The experiment is conducted by the <b>Technical University of Berlin</b> to gain some understanding which features of Artificial Intelligence help humans to detect fake news. In this study you will be asked to read news items and decide if there are fake or true with the help of an <b>AI System</b>.
+          The experiment is conducted by the <b>Technical University of Berlin</b> to gain some understanding which features of Artificial Intelligence help humans to detect SDGs. In this study you will be asked to ESG reports and decide if they contain SDGs or not with the help of an <b>AI System</b>.
           </p>
           </br>
           <p>
@@ -16,11 +22,11 @@ const qualificationStartPage = {
           </p>
           </br>
           <p>
-          <b>1. Qualification job:</b> please read two news items carefully and answer the control questions correctly to get access to the main job (7-9min).
+          <b>1. Qualification job:</b> please read two reports carefully and answer the control questions correctly to get access to the main job (7-9min).
           </p>
           </br>
           <p>
-          <b>2. Main job:</b> You will be asked to rate <b>6 news items</b> if they are true or fake (1 €). If you answer <b>5</b> of the <b>6</b> control questions correctly you will receive a <b>bonus of 5 € (overall 6 €)</b>. Please pay attention to the control questions and read the news items carefully (15-20min).
+          <b>2. Main job:</b> You will be asked to rate <b>6 reports</b> if they contain SDG or not (1 €). If you answer <b>5</b> of the <b>6</b> control questions correctly you will receive a <b>bonus of 5 € (overall 6 €)</b>. Please pay attention to the control questions and read the companies reports carefully (15-20min).
           </p>
           </br>
           <p>
@@ -34,14 +40,14 @@ const qualificationStartPage = {
     `,
     },
     {
-      maxWidth: "900px",
-      type: "checkbox",
-      name: "confirm",
+      maxWidth: '900px',
+      type: 'checkbox',
+      name: 'confirm',
       title:
-        "I have read and understood the information provided above, and I am willing to participate in the study.",
+        'I have read and understood the information provided above, and I am willing to participate in the study.',
       isRequired: true,
       colCount: 0,
-      choices: ["Yes"],
+      choices: ['Yes'],
       hideNumber: true,
     },
   ],
