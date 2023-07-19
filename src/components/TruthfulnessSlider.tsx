@@ -59,17 +59,9 @@ const ThuthfulnessSlider = ({
               background: '#595959',
             },
 
-            // "&:nth-of-type(2)": {
-            //   background: "#7F7F7F",
-            // },
-
             '&:nth-of-type(2)': {
               background: '#A5A5A5',
             },
-
-            // "&:nth-of-type(4)": {
-            //   background: "#BFBFBF",
-            // },
 
             '&:nth-of-type(3)': {
               borderRadius: '0 6px 6px 0',
@@ -98,12 +90,6 @@ const ThuthfulnessSlider = ({
         <div className="part 3">
           <label>Present</label>
         </div>
-        {/* <div className="part 4">
-          <label>Rather true</label>
-        </div>
-        <div className="part 5">
-          <label>True</label>
-        </div> */}
         <div
           css={{
             position: 'absolute',

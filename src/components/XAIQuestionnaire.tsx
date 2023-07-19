@@ -1,14 +1,16 @@
-import Head from "next/head";
-import "survey-core/defaultV2.min.css";
-import { Model } from "survey-core";
-import { Survey } from "survey-react-ui";
-import { qualificationQuestionnaire } from "@/questionnaire/qualification-questionnaire";
-import { registerMyQuestion } from "./NewsItemQuestion";
-import { XAIFeatureLevel } from "@/model/xai-feature-level";
-import NewsItem from "@/model/news-item";
-import { SurveyPart } from "@/model/survey-part";
-import { mainQuestionnaire } from "@/questionnaire/main-questionnaire";
-import { mergedQuestionnaire } from "@/questionnaire/merged-questionnaire";
+import Head from 'next/head';
+import 'survey-core/defaultV2.min.css';
+import { Model } from 'survey-core';
+import { Survey } from 'survey-react-ui';
+import { qualificationQuestionnaire } from '@/questionnaire/qualification-questionnaire';
+import { registerMyQuestion } from './NewsItemQuestion';
+import { XAIFeatureLevel } from '@/model/xai-feature-level';
+import NewsItem from '@/model/news-item';
+import { SurveyPart } from '@/model/survey-part';
+import { mainQuestionnaire } from '@/questionnaire/main-questionnaire';
+import { mergedQuestionnaire } from '@/questionnaire/merged-questionnaire';
+
+// Grosse partie du code
 
 const XAIQuestionnaire = ({
   newsItems,
@@ -21,6 +23,7 @@ const XAIQuestionnaire = ({
   groupNumber: number;
   part: SurveyPart;
 }) => {
+  // Debug
   console.log(`PART: ${part}; GROUP: ${groupNumber}; FEATURE: ${xaiFeature};`);
 
   let questionnaire: (
@@ -28,45 +31,48 @@ const XAIQuestionnaire = ({
     xaiFeature: XAIFeatureLevel
   ) => any;
 
+  // Questionnaire va contenir la suite de partie de code
   switch (part) {
-    case "qualification":
+    case 'qualification':
       questionnaire = qualificationQuestionnaire;
       break;
-    case "main":
+    case 'main':
       questionnaire = mainQuestionnaire;
       break;
-    case "merged":
+    case 'merged':
       questionnaire = mergedQuestionnaire;
       break;
     default:
-      throw new Error("Invalid survey part");
+      throw new Error('Invalid survey part');
   }
 
   registerMyQuestion();
+
+  // La création du model en fonction du questionnaire
   const survey = new Model(questionnaire(newsItems, xaiFeature));
 
   survey.onAfterRenderPage.add((sender, options) => {
     // hide "Previous" button on all pages except the "You are ready" page
     const prevButton = document.querySelector(
-      ".sd-navigation__prev-btn"
+      '.sd-navigation__prev-btn'
     ) as HTMLElement;
 
     if (prevButton) {
       prevButton.style.display =
-        options.page.name === "you-are-ready" ? "block" : "none";
+        options.page.name === 'you-are-ready' ? 'block' : 'none';
     }
   });
 
   survey.onCurrentPageChanged.add((sender, options) => {
     // jump back to start of tutorial when user clicks "Previous"
-    if (options.oldCurrentPage.name === "you-are-ready" && options.isPrevPage) {
-      sender.setValue("understand-task", undefined);
-      sender.currentPage = sender.getPageByName("tutorial-text");
+    if (options.oldCurrentPage.name === 'you-are-ready' && options.isPrevPage) {
+      sender.setValue('understand-task', undefined);
+      sender.currentPage = sender.getPageByName('tutorial-text');
     }
     // complete questionnaire if user answers incorrectly in the qualification survey
     else if (
-      part === "qualification" &&
-      options.oldCurrentPage.name === "control-question"
+      part === 'qualification' &&
+      options.oldCurrentPage.name === 'control-question'
     ) {
       const hasIncorrectAnswer = sender
         .getQuizQuestions()
@@ -79,43 +85,43 @@ const XAIQuestionnaire = ({
   });
 
   survey.onValueChanged.add((sender, options) => {
-    if (options.name === "understand-task") {
-      if (options.value === "No") {
-        sender.setValue("understand-task", undefined);
-        sender.currentPage = sender.getPageByName("tutorial-text");
+    if (options.name === 'understand-task') {
+      if (options.value === 'No') {
+        sender.setValue('understand-task', undefined);
+        sender.currentPage = sender.getPageByName('tutorial-text');
       }
     }
   });
 
   survey.onComplete.add((result) => {
     // crowdee removes the id from the form, so in production we need to get it by the second selector
-    const submitForm = (document.getElementById("submit-form") ??
-      document.querySelector("body > form")) as HTMLFormElement;
+    const submitForm = (document.getElementById('submit-form') ??
+      document.querySelector('body > form')) as HTMLFormElement;
 
     const formData: { [key: string]: any } = {
-      "x-crowdee-task": (
+      'x-crowdee-task': (
         submitForm.querySelector(
-          "input[name=x-crowdee-task]"
+          'input[name=x-crowdee-task]'
         ) as HTMLInputElement
       )?.value,
-      "x-crowdee-user": (
+      'x-crowdee-user': (
         submitForm.querySelector(
-          "input[name=x-crowdee-user]"
+          'input[name=x-crowdee-user]'
         ) as HTMLInputElement
       )?.value,
-      "x-crowdee-mode": (
+      'x-crowdee-mode': (
         submitForm.querySelector(
-          "input[name=x-crowdee-mode]"
+          'input[name=x-crowdee-mode]'
         ) as HTMLInputElement
       )?.value,
-      "METADATA.FEATURE": xaiFeature,
-      "METADATA.GROUP": groupNumber,
-      "METADATA.PART": part,
+      'METADATA.FEATURE': xaiFeature,
+      'METADATA.GROUP': groupNumber,
+      'METADATA.PART': part,
       POINTS: result.getCorrectAnswerCount(),
     };
 
     for (const key in result.data) {
-      if (typeof result.data[key] === "object") {
+      if (typeof result.data[key] === 'object') {
         for (const subKey in result.data[key]) {
           formData[`${key}.${subKey}`] = result.data[key][subKey];
         }
@@ -127,10 +133,10 @@ const XAIQuestionnaire = ({
     console.log(formData);
 
     const options = {
-      method: "POST",
+      method: 'POST',
       headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        Accept: "text/html",
+        'Content-Type': 'application/x-www-form-urlencoded',
+        Accept: 'text/html',
       },
       body: new URLSearchParams(formData),
     };
@@ -155,40 +161,41 @@ const XAIQuestionnaire = ({
       </Head>
       <main
         css={{
-          position: "relative",
+          position: 'relative',
         }}
       >
+        {/* Ici on va avoir la partie Survey qui aura un certain model  */}
         <Survey
           model={survey}
           css={{
-            "--sd-base-padding": "32px",
-            ".sd-action-bar": {
-              justifyContent: "end",
+            '--sd-base-padding': '32px',
+            '.sd-action-bar': {
+              justifyContent: 'end',
             },
-            ".sd-row": {
-              justifyContent: "center",
+            '.sd-row': {
+              justifyContent: 'center',
             },
-            ".sd-progress__text": {
-              display: "none",
+            '.sd-progress__text': {
+              display: 'none',
             },
-            ".sd-completedpage": {
-              fontWeight: "normal !important",
+            '.sd-completedpage': {
+              fontWeight: 'normal !important',
             },
           }}
         />
         <div
           className="imprint"
           css={{
-            fontFamily: "Inter, sans-serif",
-            color: "#1D1D1F",
-            fontSize: "13px",
-            padding: "24px",
-            display: "flex",
-            justifyContent: "center",
+            fontFamily: 'Inter, sans-serif',
+            color: '#1D1D1F',
+            fontSize: '13px',
+            padding: '24px',
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
           <div>
-            This experiment is conducted by the{" "}
+            This experiment is conducted by the{' '}
             <a href="https://www.tu.berlin/qu">
               TU Berlin, Quality and Usability Lab
             </a>

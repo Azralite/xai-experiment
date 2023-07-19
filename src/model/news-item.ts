@@ -8,7 +8,8 @@ interface NewsItem {
   publishingDate: string;
   label: 'fake' | 'true';
   xaiFeatures: {
-    sdg1: number;
+    sdg5: number;
+    sdg7: number;
     factuality: 'easy' | 'medium' | 'hard';
     tense: string;
     highlightedContent: string;

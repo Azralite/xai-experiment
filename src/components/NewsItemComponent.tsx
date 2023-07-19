@@ -228,14 +228,14 @@ const NewsItemComponent = ({
                 css={{
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '20px',
+                  gap: '30px',
                   width: '100%',
                 }}
               >
-                <h2>SGD 1</h2>
-                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg1} />
-                <h2>SGD 2</h2>
-                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg2} />
+                <h2>SDG 5 : Gender Equality</h2>
+                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg5} />
+                <h2>SDG 7 : Affordable and Clean Energy</h2>
+                <ThuthfulnessSlider initialScore={newsItem.xaiFeatures.sdg7} />
               </div>
             </div>
             <div className="line"></div>
@@ -375,7 +375,7 @@ const NewsItemComponent = ({
                   )}
                   <h2>
                     Explainability Feature 2: Text passages, where the
-                    AI-System&apos;s SDG detection is based on (for SDG 7)
+                    AI-System&apos;s SDG detection is based on (for SDG 5)
                   </h2>
                   <div>
                     {getHighlightedSentences(
@@ -414,7 +414,7 @@ const NewsItemComponent = ({
                   )}
                   <h2>
                     Explainability Feature 3: Text passages, where the
-                    AI-System&apos;s SDG detection is based on (for SDG 5)
+                    AI-System&apos;s SDG detection is based on (for SDG 7)
                   </h2>
                   <div
                     css={{
@@ -525,7 +525,7 @@ const NewsItemComponent = ({
                 width: '100%',
               }}
             >
-              <h2>SDG 1</h2>
+              <h2>SDG 5 : Gender Equality</h2>
               <ThuthfulnessSlider
                 initialScore={ratingValue}
                 interactive
@@ -534,7 +534,7 @@ const NewsItemComponent = ({
                   onRatingChange(score);
                 }}
               />
-              <h2>SDG 2</h2>
+              <h2>SDG 7 : Affordable and Clean Energy</h2>
               <ThuthfulnessSlider
                 initialScore={ratingValue}
                 interactive
