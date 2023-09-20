@@ -28,8 +28,14 @@ const getRandomizedNewsItems = (
     // En plus on va ajouter un faux positif et un vrai négatif
     case 'main': {
       const groupItems = data.filter((item) => {
-        return item.group === group && !item.isQualification;
+        return (
+          item.group === group &&
+          !item.isQualification &&
+          !item.isFalsePositive &&
+          !item.isTrueNegative
+        );
       }) as NewsItem[];
+      console.log('1 : ' + groupItems.length);
       const falsePositive = data.filter((item) => item.isFalsePositive)[0];
       const trueNegative = data.filter((item) => item.isTrueNegative)[0];
 
@@ -41,6 +47,7 @@ const getRandomizedNewsItems = (
 
       // add true negative as 6th item
       groupItems.splice(5, 0, trueNegative as NewsItem);
+      console.log('2 : ' + groupItems.length);
 
       console.assert(
         groupItems.length === 6,

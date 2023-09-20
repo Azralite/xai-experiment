@@ -5,10 +5,14 @@ const ThuthfulnessSlider = ({
   initialScore,
   interactive = false,
   onChange,
+  title,
+  concreate = false,
 }: {
   initialScore?: number;
   interactive?: boolean;
   onChange?: (score: number) => void;
+  title?: string;
+  concreate?: boolean;
 }) => {
   const [score, setScore] = useState<number>(initialScore || 50);
   const [isInitialState, setIsInitialState] = useState(!initialScore);
@@ -42,6 +46,7 @@ const ThuthfulnessSlider = ({
 
   return (
     <>
+      <h2>{title}</h2>
       <div
         css={{
           width: '100%',
@@ -82,13 +87,13 @@ const ThuthfulnessSlider = ({
         }}
       >
         <div className="part 1">
-          <label>Not Mentionned</label>
+          <label>{concreate ? 'Not concreate' : 'Not mentionned'}</label>
         </div>
         <div className="part 2">
-          <label>Mentionned</label>
+          <label>{concreate ? 'Fairly concreate' : 'Fairly mentionned'}</label>
         </div>
         <div className="part 3">
-          <label>Present</label>
+          <label>{concreate ? 'Fully concreate' : 'Fully mentionned'}</label>
         </div>
         <div
           css={{

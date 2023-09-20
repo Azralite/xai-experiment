@@ -16,7 +16,7 @@ const Home = ({
   // parse group number from group string
   const groupNumber = parseInt(group.split('-')[1]);
   const newsItems = getRandomizedNewsItems(groupNumber, part);
-  console.log(newsItems);
+  console.log('test' + newsItems[0].xaiFeatures.sdg5);
 
   return (
     <XAIQuestionnaire

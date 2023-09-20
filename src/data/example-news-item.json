@@ -1,46 +1,37 @@
-[
-  {
-    "id": 1,
-    "group": 1,
-    "isFalsePositive": false,
-    "isTrueNegative": false,
-    "isQualification": true,
-    "title": "ESG Report",
-    "subtitle": "SDG 5 / Code 232",
-    "content": "REPORTING PEOPLE DAIMLER SUSTAINABILITY REPORT People Electrification autonomous driving connected urban mobility It is not just our prod ucts that are changing fast lots of things in the company are changing too. We are digitalizing our value creation processes and thus our work. Our employees will need to be able to successfully address variety of challenges in the digital world of the future and it is our stated goal to ensure they will be able to do so. An open attitude regarding the digital transformation and digital skills along with diverse and inclusive corporate culture form the basis for achieving this goal. This is because only in cul ture marked by respect and trust can all employees unlock their full potential and thus enable the company to undergo successful and sustainable digital transformation. SPURWECHSEL We are changing lanes More than anything else we owe our Group success worldwide to our highly motivated employees who contrib ute their expertise and ideas to their respective tasks and work processes and help make improvements and create innovations. This is why we support all of our employees with their tasks and offer them effective training measures throughout their careers that enable them to develop fur ther both professionally and personally. We therefore invest extensively in their training and professional development and continually refine our human resources development programs. Here we focus on requirements associated with the transformation of the automotive industry in terms of alternative drive system technologies and digitalization in particular. We also take measures that ensure fair opportu nities and healthy working environment. Target Target horizon Target horizon SDGs Attractiveness as an employer for digitally talented people Top Top Empowerment of employees for the digital transformation Agreement rate diversity fair treatment Proportion of women in leading management positions Annual increase of one percentage point Rankings of goals in the Trendence study of college graduates in the field of IT Germany Daimler employee survey agreement rate Daimler Group worldwide excluding Daimler Greater China and Trucks Asia",
-    "source": "Trustworthy Source",
-    "category": "Electrification",
-    "publishingDate": "10/28/2022",
-    "label": "true",
-    "xaiFeatures": {
-      "sdg5": 96,
-      "sdg7": 34,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "REPORTING PEOPLE DAIMLER SUSTAINABILITY REPORT People Electrification autonomous driving connected urban mobility It is not just our prod ucts that are changing fast lots of things in the company are changing too. We are digitalizing our value creation processes and thus our work. Our employees will need to be able to successfully address variety of challenges in the digital world of the future and it is our stated goal to ensure they will be able to do so. An open attitude regarding the digital transformation and digital skills along with diverse and inclusive corporate culture form the basis for achieving this goal. This is because only in cul ture marked by respect and trust can all employees unlock their full potential and thus enable the company to undergo successful and sustainable digital transformation. SPURWECHSEL We are changing lanes More than anything else we owe our Group success worldwide to our highly motivated employees who contrib ute their expertise and ideas to their respective tasks and work processes and help make improvements and create innovations. This is why we support all of our employees with their tasks and offer them effective training measures throughout their careers that enable them to develop fur ther both professionally and personally. We therefore invest extensively in their training and professional development and continually refine our human resources development programs. Here we focus on requirements associated with the transformation of the automotive industry in terms of alternative drive system technologies and digitalization in particular. We also take measures that ensure fair opportu nities and healthy working environment. Target Target horizon Target horizon SDGs Attractiveness as an employer for digitally talented people Top Top Empowerment of employees for the digital transformation Agreement rate diversity fair treatment Proportion of women in leading management positions Annual increase of one percentage point Rankings of goals in the Trendence study of college graduates in the field of IT Germany Daimler employee survey agreement rate Daimler Group worldwide excluding Daimler Greater China and Trucks Asia",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
-    }
+{
+  "id": 1,
+  "group": 2,
+  "isFalsePositive": false,
+  "isTrueNegative": false,
+  "isQualification": false,
+  "title": "Improving energy efficiency",
+  "subtitle": "SDG 5 / Code 252, https://www.velatia.com/wp-content/uploads/2022/10/Velatia-Sustainability-Report-2021_Web.pdf page 45",
+  "content": "Despite the progress made in recent decades, <mark>there is still a long way to go on gender equality</mark>, and the effects of the COVID-19 pandemic could reverse the small gains that have been made. With a firm determination to incorporate a culture of equal opportunities in the organisation and empower its women, 2021 saw Velatia complete the equality plans initiated in previous years to be implemented in all its companies located in Spain. These plans go beyond the legal requirements in this field and include aspects such as payroll records and work-life balance measures, awareness-raising campaigns and other measures agreed upon with the employees themselves. This objective is also reflected in Velatia’s participation in the community by collaborating and sponsoring initiatives such as Industria Erronka, promoted by the Biscayan Federation of Metal Companies (FVEM), which seeks to bring industry closer to the young people of Bizkaia, placing special emphasis on promoting the incorporation of women in this sector in an attempt to close the large gap between men and women. The commitment to equality was completed in 2021 with a self-diagnosis of the organisation’s performance, including women as a central element in the Human Rights Due Diligence measures. This revealed a very satisfying high standard of management.",
+  "category": "Electrical system manufacturers",
+  "publishingDate": "2021",
+  "xaiFeatures": {
+    "presence": 92,
+    "concreatness": 5,
+    "generalFactuality": "hard",
+    "generalTense": "present",
+    "highlightedContent": [
+      {
+        "text": "there is still a long way to go on gender equality",
+        "factuality": "hard",
+        "tense": "future"
+      }
+    ],
+
+    "naturalLanguageExplanation": "The text mentions SDG 5 (Gender Equality) by acknowledging the existing gender inequality despite some progress, and the potential setbacks due to the COVID-19 pandemic. It highlights Velatia's determination to promote equal opportunities and empowerment of women, reflected in completed equality plans and initiatives promoting women's incorporation in industries. The commitment to gender equality is further demonstrated through self-diagnosis and human rights due diligence measures."
   },
-  {
-    "id": 2,
-    "group": 1,
-    "isFalsePositive": false,
-    "isTrueNegative": false,
-    "isQualification": true,
-    "title": "ESG Report",
-    "subtitle": "SDG 7 / Code 275",
-    "content": "BT Group plc Digital Impact and Sustainability Report appendix Privacy and free expression United Nations Global Compact CoP Sustainability Accounting Standards Board SASB index LR Independent Assurance Statement Return to contents UN Sustainable Development Goals Task Force on Climate related Financial Disclosures Global Reporting Initiative index This material references GRI to GRI environmental standards unless stated otherwise. The following standards have not been identified as material Standard Disclosure number Standard Disclosure title Management approach where reported SDG ISO clause CDSB Framework Materials GRI Management approach Our group wide environmental policy and environmental management systems EMS help us minimise our impacts manage risks and comply with relevant regulations. DI Managing environmental impacts page Product stewardship is an aspect of our EMS Materials used by weight or volume DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Recycled input materials used DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Reclaimed products and their packaging materials DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Energy GRI Management approach Our group wide environmental policy and environmental management systems EMS help us minimise our impacts manage risks and comply with relevant regulations. DI Managing environmental impacts page Energy use is an aspect of our EMS We do not measure energy use outside our operational boundaries however we encourage our suppliers to seek energy efficiencies in their operations and the products they supply us. Energy consumption within the organisation AR Tackling climate change and environmental challenges page DI Road to net zero page and Environmental data in our download centre bt.com sustainabilityreport Sustainable resource use REQ Sources of environmental impact Energy consumption outside of the organisation Information not available we do not measure energy use outside our operations. DI Driving supplier climate action page Sustainable resource use REQ Sources of environmental impact Energy intensity Not applicable We don report energy intensity. REQ Sources of environmental impact Global Reporting Initiative index continued",
-    "source": "Trustworthy Source",
-    "category": "Electrification",
-    "publishingDate": "10/28/2022",
-    "label": "true",
-    "xaiFeatures": {
-      "sdg5": 41,
-      "sdg7": 90,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "BT Group plc Digital Impact and Sustainability Report appendix Privacy and free expression United Nations Global Compact CoP Sustainability Accounting Standards Board SASB index LR Independent Assurance Statement Return to contents UN Sustainable Development Goals Task Force on Climate related Financial Disclosures Global Reporting Initiative index This material references GRI to GRI environmental standards unless stated otherwise. The following standards have not been identified as material Standard Disclosure number Standard Disclosure title Management approach where reported SDG ISO clause CDSB Framework Materials GRI Management approach Our group wide environmental policy and environmental management systems EMS help us minimise our impacts manage risks and comply with relevant regulations. DI Managing environmental impacts page Product stewardship is an aspect of our EMS Materials used by weight or volume DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Recycled input materials used DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Reclaimed products and their packaging materials DI Supporting circular economy page Sustainable resource use Sustainable consumption REQ Sources of environmental impact Energy GRI Management approach Our group wide environmental policy and environmental management systems EMS help us minimise our impacts manage risks and comply with relevant regulations. DI Managing environmental impacts page Energy use is an aspect of our EMS We do not measure energy use outside our operational boundaries however we encourage our suppliers to seek energy efficiencies in their operations and the products they supply us. Energy consumption within the organisation AR Tackling climate change and environmental challenges page DI Road to net zero page and Environmental data in our download centre bt.com sustainabilityreport Sustainable resource use REQ Sources of environmental impact Energy consumption outside of the organisation Information not available we do not measure energy use outside our operations. DI Driving supplier climate action page Sustainable resource use REQ Sources of environmental impact Energy intensity Not applicable We don report energy intensity. REQ Sources of environmental impact Global Reporting Initiative index continued",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
-    }
+  "controlQuestion": {
+    "question": "What was the article about?",
+    "correctAnswer": "***A change of law about frozen sperm up to 50 years ago",
+    "wrongAnswers": [
+      "A change of law about about frozen babies",
+      "A change of law about frozen animals",
+      "Frozen sperm should be made freely available for all women",
+      "Frozen sperm has become a new ice cream"
+    ]
   }
-]
+}

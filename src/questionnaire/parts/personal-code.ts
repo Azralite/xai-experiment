@@ -41,6 +41,7 @@ const personalCode = {
       title: 'Please enter your personal code:',
       hideNumber: true,
       placeHolder: 'e.g. MLT93',
+      isRequired: true,
     },
   ],
 };

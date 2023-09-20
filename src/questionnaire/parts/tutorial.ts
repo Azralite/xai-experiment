@@ -48,7 +48,7 @@ const getTutorialPagesForNewsItem = (
 ) => {
   return [
     getTutorialPageForStep(newsItem, {
-      isInput: true,
+      isInput: false,
       xaiFeatures: xaiFeatures,
       step: 'overview',
     }),
