@@ -5,7 +5,7 @@ import { agreementLikert7 } from '@/helper/likert-scales';
 
 const expectations = {
   title:
-    'Survey Part 1: Your General Thoughts about using Artificial Intelligence (AI) for Fake News Detection',
+    'Survey Part 1: Your General Thoughts about using Artificial Intelligence (AI) for SDG Detection',
   description:
     'In the following several questions will be asked about your general perception of Artificial Intelligence and its use for detecting SDG in company reports. Please answer the following questions as truthfully as possible.',
   elements: [
@@ -28,16 +28,16 @@ const expectations = {
         },
         {
           value: 'trust-ai',
-          text: 'In general do you trust AI?',
+          text: 'In general I trust AI',
         },
         {
           value: 'sceptical-about-ai',
-          text: 'In general, are you sceptical about AI?',
+          text: 'In general, I am sceptical about AI',
         },
         {
           // On a modifié le value, peut etre un risque que ca pete quelque part
           value: 'rely-on-ai-for-sdg-detection',
-          text: 'How willing are you to rely on information provided by an AI system in the context of SDG detection?',
+          text: 'I rely on information provided by an AI system in the context of SDG detection?',
         },
       ],
     },

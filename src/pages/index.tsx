@@ -96,26 +96,6 @@ const Home = () => {
             </Link>
           </li>
         </ul>
-        <h2
-          css={{
-            fontSize: '22px',
-            fontWeight: 600,
-            marginTop: '32px',
-          }}
-        >
-          Paul test
-        </h2>
-        <ul
-          css={{
-            marginLeft: '16px',
-          }}
-        >
-          <li>
-            Basic:{' '}
-            <Link href="/basic/group-1/qualification">Qualification</Link> -{' '}
-            <Link href="/basic/group-1/main">Main</Link>
-          </li>
-        </ul>
       </main>
     </>
   );

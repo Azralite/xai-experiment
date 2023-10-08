@@ -9,7 +9,7 @@ interface NewsItem {
   category?: string;
   publishingDate: string;
   xaiFeatures: {
-    presence: number;
+    presence: boolean;
     concreatness: number;
     generalFactuality: 'easy' | 'medium' | 'hard';
     generalTense: 'past' | 'present' | 'future';

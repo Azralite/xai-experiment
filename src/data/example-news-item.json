@@ -6,18 +6,48 @@
   "isQualification": false,
   "title": "Improving energy efficiency",
   "subtitle": "SDG 5 / Code 252, https://www.velatia.com/wp-content/uploads/2022/10/Velatia-Sustainability-Report-2021_Web.pdf page 45",
-  "content": "Despite the progress made in recent decades, <mark>there is still a long way to go on gender equality</mark>, and the effects of the COVID-19 pandemic could reverse the small gains that have been made. With a firm determination to incorporate a culture of equal opportunities in the organisation and empower its women, 2021 saw Velatia complete the equality plans initiated in previous years to be implemented in all its companies located in Spain. These plans go beyond the legal requirements in this field and include aspects such as payroll records and work-life balance measures, awareness-raising campaigns and other measures agreed upon with the employees themselves. This objective is also reflected in Velatia’s participation in the community by collaborating and sponsoring initiatives such as Industria Erronka, promoted by the Biscayan Federation of Metal Companies (FVEM), which seeks to bring industry closer to the young people of Bizkaia, placing special emphasis on promoting the incorporation of women in this sector in an attempt to close the large gap between men and women. The commitment to equality was completed in 2021 with a self-diagnosis of the organisation’s performance, including women as a central element in the Human Rights Due Diligence measures. This revealed a very satisfying high standard of management.",
+  "content": "Despite the progress made in recent decades, <mark>there is still a long way to go on gender equality</mark>, and the effects of the COVID-19 pandemic could reverse the small gains that have been made. With a <mark>firm determination to incorporate a culture of equal opportunities</mark> in the organisation and <mark>empower its women</mark>, 2021 saw Velatia complete the <mark>equality plans initiated in previous years</mark> to be implemented in all its companies located in Spain. These plans go beyond the legal requirements in this field and <mark>include aspects such as payroll records and work-life balance measures</mark>, <mark>awareness-raising campaigns</mark> and other measures agreed upon with the employees themselves. This objective is also reflected in Velatia’s participation in the community by collaborating and sponsoring initiatives such as Industria Erronka, promoted by the Biscayan Federation of Metal Companies (FVEM), which seeks to bring industry closer to the young people of Bizkaia, <mark>placing special emphasis on promoting the incorporation of women</mark> in this sector in an attempt to close the large gap between men and women. The commitment to equality was completed in 2021 with a self-diagnosis of the organisation’s performance, including women as a central element in the Human Rights Due Diligence measures. This revealed a very satisfying high standard of management.",
   "category": "Electrical system manufacturers",
   "publishingDate": "2021",
   "xaiFeatures": {
-    "presence": 92,
-    "concreatness": 5,
+    "presence": true,
+    "concreatness": 58,
     "generalFactuality": "hard",
     "generalTense": "present",
     "highlightedContent": [
       {
-        "text": "there is still a long way to go on gender equality",
+        "text": "There is still a long way to go on gender equality",
         "factuality": "hard",
+        "tense": "future"
+      },
+      {
+        "text": "firm determination to incorporate a culture of equal opportunities",
+        "factuality": "hard",
+        "tense": "future"
+      },
+      {
+        "text": "empower its women",
+        "factuality": "medium",
+        "tense": "present"
+      },
+      {
+        "text": "equality plans initiated in previous years",
+        "factuality": "hard",
+        "tense": "past"
+      },
+      {
+        "text": "include aspects such as payroll records and work-life balance measures",
+        "factuality": "hard",
+        "tense": "future"
+      },
+      {
+        "text": "awareness-raising campaigns",
+        "factuality": "medium",
+        "tense": "future"
+      },
+      {
+        "text": "placing special emphasis on promoting the incorporation of women",
+        "factuality": "easy",
         "tense": "future"
       }
     ],
@@ -25,13 +55,13 @@
     "naturalLanguageExplanation": "The text mentions SDG 5 (Gender Equality) by acknowledging the existing gender inequality despite some progress, and the potential setbacks due to the COVID-19 pandemic. It highlights Velatia's determination to promote equal opportunities and empowerment of women, reflected in completed equality plans and initiatives promoting women's incorporation in industries. The commitment to gender equality is further demonstrated through self-diagnosis and human rights due diligence measures."
   },
   "controlQuestion": {
-    "question": "What was the article about?",
-    "correctAnswer": "***A change of law about frozen sperm up to 50 years ago",
+    "question": "What did Velatia complete in 2021 regarding gender equality and their organization's performance?",
+    "correctAnswer": "elatia self-diagnosed their performance, including women in Human Rights Due Diligence measures.",
     "wrongAnswers": [
-      "A change of law about about frozen babies",
-      "A change of law about frozen animals",
-      "Frozen sperm should be made freely available for all women",
-      "Frozen sperm has become a new ice cream"
+      "Velatia initiated gender equality plans.",
+      "Velatia reduced the legal requirements for gender equality.",
+      "elatia self-diagnosed their performance, including women in Human Rights Due Diligence measures.",
+      "Velatia collaborated with the Biscayan Federation of Metal Companies to promote gender inequality."
     ]
   }
 }

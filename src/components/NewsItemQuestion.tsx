@@ -1,10 +1,10 @@
-import NewsItem from "@/model/news-item";
-import React from "react";
-import { Question, Serializer, ElementFactory } from "survey-core";
-import { SurveyElementBase, ReactQuestionFactory } from "survey-react-ui";
-import NewsItemComponent from "./NewsItemComponent";
+import NewsItem from '@/model/news-item';
+import React from 'react';
+import { Question, Serializer, ElementFactory } from 'survey-core';
+import { SurveyElementBase, ReactQuestionFactory } from 'survey-react-ui';
+import NewsItemComponent from './NewsItemComponent';
 
-const QUESTION_TYPE = "newsitem";
+const QUESTION_TYPE = 'newsitem';
 
 export const registerMyQuestion = () => {
   ElementFactory.Instance.registerElement(QUESTION_TYPE, (name) => {
@@ -18,10 +18,10 @@ export class NewsItemQuestionModel extends Question {
   }
 
   get text() {
-    return this.getPropertyValue("text", "");
+    return this.getPropertyValue('text', '');
   }
   set text(newValue) {
-    this.setPropertyValue("text", newValue);
+    this.setPropertyValue('text', newValue);
   }
 }
 
@@ -29,8 +29,9 @@ export class NewsItemQuestion extends SurveyElementBase<
   {
     question: {
       newsitem: NewsItem;
-      xaiFeatures: "none" | "basic";
+      xaiFeatures: 'none' | 'basic';
       isInput: boolean;
+      isPresent: boolean;
       isTutorialMode: boolean;
       tutorialTooltip: string;
       value?: number;
@@ -60,6 +61,10 @@ export class NewsItemQuestion extends SurveyElementBase<
         newsItem={this.question.newsitem}
         xaiFeatures={this.question.xaiFeatures}
         isInput={this.question.isInput}
+        isPresent={this.question.isPresent}
+        onPresentChange={(isPresent) => {
+          if (!isPresent) this.question.value = -1;
+        }}
         onRatingChange={(value) => {
           this.question.value = value;
         }}
@@ -75,14 +80,15 @@ export class NewsItemQuestion extends SurveyElementBase<
 Serializer.addClass(
   QUESTION_TYPE,
   [
-    "newsitem:object",
-    "xaiFeatures:string",
-    "isInput:boolean",
-    "isTutorialMode:boolean",
-    "tutorialTooltip:string",
+    'newsitem:object',
+    'xaiFeatures:string',
+    'isInput:boolean',
+    'isPresent:boolean',
+    'isTutorialMode:boolean',
+    'tutorialTooltip:string',
   ],
-  () => new NewsItemQuestionModel(""),
-  "question"
+  () => new NewsItemQuestionModel(''),
+  'question'
 );
 
 ReactQuestionFactory.Instance.registerQuestion(QUESTION_TYPE, (props) => {

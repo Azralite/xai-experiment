@@ -104,7 +104,7 @@ const getPagesForNewsItem = (
           isAllRowRequired: true,
           rows: [
             {
-              text: 'The AI-System classified the news items correctly',
+              text: 'The AI-System classified the SDG correctly',
               value: 'classified-correctly',
             },
             {
@@ -112,15 +112,15 @@ const getPagesForNewsItem = (
               value: 'understand-what-system-does',
             },
             {
-              text: 'The explainability features presented are useful to assess the truthfulness of the news article',
+              text: 'The explainability features presented are useful to assess the presence of the SDG',
               value: 'xai-features-useful',
             },
             {
-              text: 'The indications given by the AI-System are useful to assess the truthfulness of the news article',
+              text: 'The indications given by the AI-System are useful to assess the presence of the SDG',
               value: 'indications-useful',
             },
             {
-              text: 'The presented explanations are comprehensible and help me with assessing the news articles',
+              text: 'The presented explanations are comprehensible and help me with assessing the company report',
               value: 'explanations-comprehensible-and-help-assess',
             },
           ],

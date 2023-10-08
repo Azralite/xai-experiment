@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "xai-experiment"
-  }
+    "default": "xai-experiment-1bc8f",
+    "xai-experiment": "xai-experiment-1bc8f"
+  },
+  "targets": {},
+  "etags": {}
 }

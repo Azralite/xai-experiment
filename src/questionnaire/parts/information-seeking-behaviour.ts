@@ -12,25 +12,16 @@ import {
 
 const informationSeekingBehaviour = [
   {
-    title: 'Survey Part 1: Your General knowledge about Sustanability',
+    title:
+      'Survey Part 1: Your general knowingness, attitude and behavior about sustainability',
+    // Here add all the question about sustainability from the questionnaire
     description:
-      'In this part you should answer questions about the accessibility and transparency of information. Please answer as truthfully as possible.',
+      'In this part you should answer questions about your knowledge, attitude and behavior. Please answer as truthfully as possible.',
     elements: [
-      {
-        type: 'boolean',
-        name: 'journalist',
-        title: 'Are a journalist by profession?',
-        valueTrue: 'Yes',
-        valueFalse: 'No',
-        renderAs: 'radio',
-        hideNumber: true,
-        isRequired: true,
-      },
       {
         type: 'matrix',
         name: 'information-seeking.sources',
-        title:
-          'How often do you use these sources to learn about different topics?',
+        title: 'What is your behavior about sustainability',
         hideNumber: true,
         columns: frequencyLikert7,
         alternateRows: true,
@@ -38,43 +29,52 @@ const informationSeekingBehaviour = [
         titleLocation: 'hidden',
         rows: [
           {
-            value: 'newspaper',
-            text: 'How frequently do you engage in activities or initiatives that promote environmental sustainability?',
+            value: 'K12',
+            text: 'Sustainable development requires that companies act responsibly towards their employees, customers and suppliers.',
           },
           {
-            value: 'online-newspaper',
-            text: 'How often do you boycott a company for some ecological or ethical question ? ',
+            value: 'K16',
+            text: 'Sustainable development requires a fair distribution of goods and services among people in the world.',
           },
           {
-            value: 'instagram',
-            text: 'How often do you support businesses or organisations that demonstrate a strong commitment ot sustainable practices ?',
+            value: 'K17',
+            text: 'Wiping out poverty in the world is necessary for sustainable development.',
           },
           {
-            value: 'twitter',
-            text: 'How often do you seek information or educate yourself about sustainable practices and solutions?',
+            value: 'A3',
+            text: 'I think that companies have a responsibility to reduce the use of packaging and disposable articles.',
           },
-          // { value: 'facebook', text: 'Facebook' },
-          // {
-          //   value: 'interview',
-          //   text: 'Personal Talk (Interview)',
-          //   visibleIf: "{journalist}='Yes'",
-          // },
-          // { value: 'blogs-websites', text: 'Blogs/Websites' },
-          // {
-          //   value: 'personal-social-networks',
-          //   text: 'In personal social networks',
-          // },
+          {
+            value: 'A7',
+            text: 'I think it is important to reduce poverty.',
+          },
+          {
+            value: 'A8',
+            text: 'I think that companies in rich countries should give employees in poor nations the same conditions as in rich countries.',
+          },
+          {
+            value: 'B6',
+            text: 'I do things which help poor people.',
+          },
+          {
+            value: 'B9',
+            text: 'I often purchase second-hand goods over the internet or in a shop',
+          },
+          {
+            value: 'B11',
+            text: 'I avoid buying goods from companies with a bad reputation for looking after their employees and the environment.',
+          },
         ],
       },
-      {
-        type: 'matrix',
-        name: 'information-seeking.',
-        title:
-          'I think the private sector is actively engaged and contributing to the achievement of the SDGs?',
-        isAllRowRequired: true,
-        columns: agreementLikert7,
-        rows: [{ value: 'yes', text: 'Yes' }],
-      },
+      // {
+      //   type: 'matrix',
+      //   name: 'information-seeking.',
+      //   title:
+      //     'I think the private sector is actively engaged and contributing to the achievement of the SDGs?',
+      //   isAllRowRequired: true,
+      //   columns: agreementLikert7,
+      //   rows: [{ value: 'yes', text: 'Yes' }],
+      // },
       // {
       //   type: 'checkbox',
       //   name: 'information-seeking.most-used-sources',

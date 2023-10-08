@@ -61,7 +61,7 @@ const getTutorialPagesForNewsItem = (
       isInput: true,
       xaiFeatures: 'none',
       step: 'your-rating',
-      isRequired: true,
+      isRequired: false,
     }),
     getTutorialPageForStep(newsItem, {
       isInput: false,
@@ -96,7 +96,7 @@ const getTutorialPagesForNewsItem = (
       isInput: true,
       xaiFeatures: xaiFeatures,
       step: 'redo-your-rating',
-      isRequired: true,
+      isRequired: false,
     }),
   ];
 };

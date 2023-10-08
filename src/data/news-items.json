@@ -7,18 +7,48 @@
     "isQualification": false,
     "title": "Improving energy efficiency",
     "subtitle": "SDG 5 / Code 252, https://www.velatia.com/wp-content/uploads/2022/10/Velatia-Sustainability-Report-2021_Web.pdf page 45",
-    "content": "Despite the progress made in recent decades, there is still a long way to go on gender equality, and the effects of the COVID-19 pandemic could reverse the small gains that have been made. With a firm determination to incorporate a culture of equal opportunities in the organisation and empower its women, 2021 saw Velatia complete the equality plans initiated in previous years to be implemented in all its companies located in Spain. These plans go beyond the legal requirements in this field and include aspects such as payroll records and work-life balance measures, awareness-raising campaigns and other measures agreed upon with the employees themselves. This objective is also reflected in Velatia’s participation in the community by collaborating and sponsoring initiatives such as Industria Erronka, promoted by the Biscayan Federation of Metal Companies (FVEM), which seeks to bring industry closer to the young people of Bizkaia, placing special emphasis on promoting the incorporation of women in this sector in an attempt to close the large gap between men and women. The commitment to equality was completed in 2021 with a self-diagnosis of the organisation’s performance, including women as a central element in the Human Rights Due Diligence measures. This revealed a very satisfying high standard of management.",
+    "content": "Despite the progress made in recent decades, <mark>there is still a long way to go on gender equality</mark>, and the effects of the COVID-19 pandemic could reverse the small gains that have been made. With a <mark>firm determination to incorporate a culture of equal opportunities</mark> in the organisation and <mark>empower its women</mark>, 2021 saw Velatia complete the <mark>equality plans initiated in previous years</mark> to be implemented in all its companies located in Spain. These plans go beyond the legal requirements in this field and <mark>include aspects such as payroll records and work-life balance measures</mark>, <mark>awareness-raising campaigns</mark> and other measures agreed upon with the employees themselves. This objective is also reflected in Velatia’s participation in the community by collaborating and sponsoring initiatives such as Industria Erronka, promoted by the Biscayan Federation of Metal Companies (FVEM), which seeks to bring industry closer to the young people of Bizkaia, <mark>placing special emphasis on promoting the incorporation of women</mark> in this sector in an attempt to close the large gap between men and women. The commitment to equality was completed in 2021 with a self-diagnosis of the organisation’s performance, including women as a central element in the Human Rights Due Diligence measures. This revealed a very satisfying high standard of management.",
     "category": "Electrical system manufacturers",
     "publishingDate": "2021",
     "xaiFeatures": {
-      "presence": 92,
-      "concreatness": 5,
+      "presence": true,
+      "concreatness": 87,
       "generalFactuality": "hard",
       "generalTense": "present",
       "highlightedContent": [
         {
-          "text": "there is still a long way to go on <mark>gender equality</mark>",
+          "text": "There is still a long way to go on gender equality",
           "factuality": "hard",
+          "tense": "future"
+        },
+        {
+          "text": "firm determination to incorporate a culture of equal opportunities",
+          "factuality": "hard",
+          "tense": "future"
+        },
+        {
+          "text": "empower its women",
+          "factuality": "medium",
+          "tense": "present"
+        },
+        {
+          "text": "equality plans initiated in previous years",
+          "factuality": "hard",
+          "tense": "past"
+        },
+        {
+          "text": "include aspects such as payroll records and work-life balance measures",
+          "factuality": "hard",
+          "tense": "future"
+        },
+        {
+          "text": "awareness-raising campaigns",
+          "factuality": "medium",
+          "tense": "future"
+        },
+        {
+          "text": "placing special emphasis on promoting the incorporation of women",
+          "factuality": "easy",
           "tense": "future"
         }
       ],
@@ -26,13 +56,13 @@
       "naturalLanguageExplanation": "The text mentions SDG 5 (Gender Equality) by acknowledging the existing gender inequality despite some progress, and the potential setbacks due to the COVID-19 pandemic. It highlights Velatia's determination to promote equal opportunities and empowerment of women, reflected in completed equality plans and initiatives promoting women's incorporation in industries. The commitment to gender equality is further demonstrated through self-diagnosis and human rights due diligence measures."
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "***A change of law about frozen sperm up to 50 years ago",
+      "question": "What did Velatia complete in 2021 regarding gender equality and their organization's performance?",
+      "correctAnswer": "Velatia self-diagnosed their performance, including women in Human Rights Due Diligence measures.",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "Velatia initiated gender equality plans.",
+        "Velatia reduced the legal requirements for gender equality.",
+        "Velatia's commitment to equality was revealed to be unsatisfactory.",
+        "Velatia collaborated with the Biscayan Federation of Metal Companies to promote gender inequality."
       ]
     }
   },
@@ -44,27 +74,25 @@
     "isQualification": false,
     "title": "Improving energy efficiency",
     "subtitle": "SDG 7 / code 319 / Danfoss ",
-    "content": "To reach carbon neutrality, energy-efficient technology and renewables must be implemented together and on a large scale. We must not only turn our energy supply green but decouple economic growth from energy demand. An enabler for the energy transition is electrification. Danfoss engineers solutions for an electrified mobility sector on land and sea. According to the International Energy Agency, around 44% of emissions reduction need to come from energy efficiency to reduce the world’s energy demand and 36% from renewable energy, such as wind and solar. An enabler for the green transition is an electrified mobility sector, both on land and at sea. The maritime sector is responsible for about 2-3% of global greenhouse gas emissions. At Danfoss, we engineer electric solutions for off-highway and marine transport to reduce not only CO₂ and other pollutants, but also improve the productivity and efficiency of such machines. Our Editron electric marine system makes ferries far less carbon intensive and allows them to sail without polluting island communities, coastal zones and inland waterways. The world’s most powerful electric ferry Ellen started operating in Danish waters in 2019. The electrically powered ferry has the largest battery capacity at sea and navigates without CO₂ emissions. The Danfoss’ motors, used in the e-ferry, are powered by a battery system with an unprecedented capacity of 4.3 MWh and fueled 100% by electricity. This makes Ellen emissions-free and she saves the climate 2,000 tons of CO₂ every year. On top of this, the technology allows 50% energy savings compared to diesel- powered vessels. With market-ready emissions-free ferries, we can electrify transport in in-shore shipping areas, and on rivers, harbor areas and lakes. These innovative solutions make it possible to reduce pollution and improve air quality in the surrounding areas.",
-    "source": "Trustworthy Source",
+    "content": "To reach carbon neutrality, energy-efficient technology and renewables must be implemented together and on a large scale. We must not only turn our energy supply green but decouple economic growth from energy demand. An enabler for the energy transition is electrification. Danfoss engineers solutions for an electrified mobility sector on land and sea. According to the International Energy Agency, around 44% of emissions reduction need to come from energy efficiency to reduce the world’s energy demand and 36% from renewable energy, such as wind and solar. An enabler for the green transition is an electrified mobility sector, both on land and at sea. The maritime sector is responsible for about 2-3% of global greenhouse gas emissions. At Danfoss, we engineer electric solutions for off-highway and marine transport to reduce not only CO₂ and other pollutants, but also improve the productivity and efficiency of such machines.",
     "category": "Customer goods / shops",
-    "publishingDate": "10/28/2022",
-    "label": "true",
+    "publishingDate": "2022",
     "xaiFeatures": {
-      "sdg5": 12,
-      "sdg7": 97,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "To reach carbon neutrality, energy-efficient technology and renewables must be implemented together and on a large scale. We must not only turn our energy supply green but decouple economic growth from energy demand. An enabler for the energy transition is electrification. Danfoss engineers solutions for an electrified mobility sector on land and sea. According to the International Energy Agency, around 44% of emissions reduction need to come from energy efficiency to reduce the world’s energy demand and 36% from renewable energy, such as wind and solar. An enabler for the green transition is an electrified mobility sector, both on land and at sea. The maritime sector is responsible for about 2-3% of global greenhouse gas emissions. At Danfoss, we engineer electric solutions for off-highway and marine transport to reduce not only CO₂ and other pollutants, but also improve the productivity and efficiency of such machines. Our Editron electric marine system makes ferries far less carbon intensive and allows them to sail without polluting island communities, coastal zones and inland waterways. The world’s most powerful electric ferry Ellen started operating in Danish waters in 2019. The electrically powered ferry has the largest battery capacity at sea and navigates without CO₂ emissions. The Danfoss’ motors, used in the e-ferry, are powered by a battery system with an unprecedented capacity of 4.3 MWh and fueled 100% by electricity. This makes Ellen emissions-free and she saves the climate 2,000 tons of CO₂ every year. On top of this, the technology allows 50% energy savings compared to diesel- powered vessels. With market-ready emissions-free ferries, we can electrify transport in in-shore shipping areas, and on rivers, harbor areas and lakes. These innovative solutions make it possible to reduce pollution and improve air quality in the surrounding areas. ",
+      "presence": false,
+      "concreatness": 97,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [],
       "naturalLanguageExplanation": "The text mentions SDG 7 (Affordable and Clean Energy) by emphasizing the need for energy-efficient technology and renewable energy implementation to reach carbon neutrality. It discusses the importance of electrification as an enabler for the energy transition, especially in the mobility sector on land and at sea. By engineering electric solutions for marine transport, such as the Editron electric marine system used in the Ellen electric ferry, the company contributes to reducing greenhouse gas emissions and improving air quality, aligning with the goal of clean and sustainable energy (SDG 7). "
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "A change of law about frozen sperm up to 50 years ago",
+      "question": "What is a key solution mentioned in the text for achieving carbon neutrality and reducing global greenhouse gas emissions?",
+      "correctAnswer": "Prioritizing electrification in the mobility sector on land and sea",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "Implementing energy-efficient technology alone",
+        "Focusing only on turning energy supply green",
+        "Emphasizing economic growth over energy demand",
+        "Reducing emissions solely from wind energy"
       ]
     }
   },
@@ -74,29 +102,40 @@
     "isFalsePositive": false,
     "isTrueNegative": false,
     "isQualification": false,
-    "title": "Improving energy efficiency",
-    "subtitle": "SDG 5 and 7, Code : 1623 ",
-    "content": "We additionally strive to contribute to other SDGs through our solutions operations and societal engagement. We prioritize health and wellbeing in our operations by promoting health and safety among our employees and contractors. We also provide solutions for healthy and sustainable living for more people. The Electrolux Food Foundation and our global partnership Feed the Planet offer vocational culinary training to enter the labor market raise awareness on sustainable food habits and work with schools around the world. We have specific focus on gender diversity and aim to continuously improve the number of female leaders at all levels Our social investment projects also often empower women in society. We provide range of water cient domestic appliances that help to conserve local water resources. Our laundry products promote sanitation in homes hotels and hospitals.We are working to increase our share of energy from renewable sources to 50% .",
+    "title": "Electrolux SDG Report",
+    "subtitle": "SDG 7, Code : 1623 ",
+    "content": "We additionally strive to contribute to other SDGs through our solutions operations and societal engagement. We prioritize health and wellbeing in our operations by promoting health and safety among our employees and contractors. We also provide solutions for healthy and sustainable living for more people. The Electrolux Food Foundation and our global partnership Feed the Planet offer vocational culinary training to enter the labor market raise awareness on sustainable food habits and work with schools around the world. <mark>We have specific focus on gender diversity and aim to continuously improve the number of female leaders at all levels</mark>. <mark>Our social investment projects also often empower women in society.</mark> We provide range of water cient domestic appliances that help to conserve local water resources. Our laundry products promote sanitation in homes hotels and hospitals.We are working to increase our share of energy from renewable sources to 50% .",
     "source": "Electrolux",
     "category": "Customer goods / shops",
     "publishingDate": "2021",
     "label": "true",
     "xaiFeatures": {
-      "sdg5": 87,
-      "sdg7": 97,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "We additionally strive to contribute to other SDGs through our solutions operations and societal engagement. We prioritize health and wellbeing in our operations by promoting health and safety among our employees and contractors. We also provide solutions for healthy and sustainable living for more people. The Electrolux Food Foundation and our global partnership Feed the Planet offer vocational culinary training to enter the labor market raise awareness on sustainable food habits and work with schools around the world. <mark>We have specific focus on gender diversity and aim to continuously improve the number of female leaders at all levels Our social investment projects also often empower women in society</mark>. We provide range of water cient domestic appliances that help to conserve local water resources. Our laundry products promote sanitation in homes hotels and hospitals. <emotion>We are working to increase our share of energy from renewable sources to Read more in our Promise Achieve more with less.</emotion>",
+      "presence": true,
+      "concreatness": 66,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [
+        {
+          "text": "We have specific focus on gender diversity and aim to continuously improve the number of female leaders at all levels.",
+          "tense": "present",
+          "factuality": "medium"
+        },
+        {
+          "text": "Our social investment projects also often empower women in society",
+          "tense": "future",
+          "factuality": "easy"
+        }
+      ],
       "naturalLanguageExplanation": "The text mentions SDG 5 (Gender Equality) by stating that the company has a specific focus on gender diversity and aims to improve the number of female leaders at all levels. The company's social investment projects also empower women in society, aligning with the goal of promoting women's empowerment.  \n The text mentions SDG 7 (Affordable and Clean Energy) by indicating the company's effort to increase its use of renewable energy sources, contributing to the goal of sustainable and clean energy access (SDG 7). The company's focus on achieving more with less aligns with the goal's emphasis on using energy efficiently and sustainably."
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "A change of law about frozen sperm up to 50 years ago",
+      "question": "Which of the following statements is true about the company's initiatives based on the given text?",
+      "correctAnswer": "The company promotes gender diversity and works to improve the number of female leaders at all levels",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "The company only focuses on promoting health and safety among its employees and contractors.",
+        "The Electrolux Food Foundation and Feed the Planet partnership focus on vocational culinary training exclusively for women.",
+        "The company aims to increase its share of energy from renewable sources to 30%.",
+        "The company's laundry products are not involved in promoting sanitation in homes, hotels, and hospitals."
       ]
     }
   },
@@ -106,29 +145,27 @@
     "isFalsePositive": false,
     "isTrueNegative": false,
     "isQualification": false,
-    "title": "Improving energy efficiency",
+    "title": "Better water consumption in agriculture",
     "subtitle": " No SDG , Code : 207 ",
     "content": "We help reduce water consumption through the use of ICT in agriculture. <br> Our efficient Smart Agriculture ICT solutions allow for higher harvest yields while reducing the use of resources such as seeds, water, fertilizers and energy. We also conduct projects to protect biodiversity. <br> We have clearly expressed our commitment to complying with ethical principles and current legal standards. This commitment has been incorporated in our Guiding Principles and Code of Conduct. We also operate a comprehensive compliance management system. All our activities are compliant with legal <br> regulations and our Binding Corporate Rules on Privacy. We collaborate with associations, institutions and companies at the national and international level. One of these is the Global e-Sustainability Initiative img (GeSI img).",
-    "source": "Trustworthy Source",
     "category": "Customer goods / shops",
     "publishingDate": "10/28/2022",
-    "label": "true",
     "xaiFeatures": {
-      "sdg5": 12,
-      "sdg7": 9,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": " ??? ",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
+      "presence": false,
+      "concreatness": 9,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [],
+      "naturalLanguageExplanation": "The text indirectly refers to both SDG 5 (Gender Equality). While it doesn't explicitly address these goals, it mentions sustainable practices that align with them. The commitment to ethical principles and legal compliance, as well as collaboration with various entities, reflects a broader engagement with sustainability, including potential contributions to gender equality (SDG 5) through inclusive practices and partnerships."
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "A change of law about frozen sperm up to 50 years ago",
+      "question": "How does the company reduce water consumption in agriculture?",
+      "correctAnswer": "By utilizing advanced ICT solutions in agriculture.",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "By promoting energy-efficient irrigation techniques.",
+        "By increasing the use of fertilizers.",
+        "By implementing traditional farming methods.",
+        "By reducing the use of agricultural machinery."
       ]
     }
   },
@@ -138,29 +175,46 @@
     "isFalsePositive": true,
     "isTrueNegative": false,
     "isQualification": false,
-    "title": "Improving energy efficiency",
+    "title": "Sustainability in science",
     "subtitle": " False Pos / code 286  ",
-    "content": "As planetary health impacts public health, we are committed to limiting our impact on the environment and the climate. Our company purpose  - Breakthroughs that change patients' lives - guides our environmental priorities, with focus on impact reduction, conservation of resources and the reduction of waste arising from our operations. How our approach to environmental sustainability supports the SDGs ? Industry Innovation and Infrastructure : We promote resilient and sustainable infrastructure, scientific research and innovation. Responsible Consumption and Production : We aim to achieve environmentally sound life cycle management and adopt sustainable practices. Climate Action : Through our goals we are taking urgent action to combat climate change and its impacts.",
+    "content": "As planetary health impacts public health, we are committed to limiting our impact on the environment and the climate. <mark>Our company purpose  - Breakthroughs that change patients' lives</mark> - guides our environmental priorities, with focus on impact reduction, conservation of resources and the reduction of waste arising from our operations. How our approach to environmental sustainability supports the SDGs ? Industry Innovation and Infrastructure : We promote resilient and sustainable infrastructure, scientific research and innovation. <mark>Responsible Consumption and Production : We aim to achieve environmentally</mark> sound life cycle management and adopt sustainable practices. <mark>Climate Action : Through our goals we are taking urgent action to combat climate change and its impacts.</mark>",
     "source": "Trustworthy Source",
     "category": "Customer goods / shops",
-    "publishingDate": "10/28/2022",
+    "publishingDate": "2022",
     "label": "false",
     "xaiFeatures": {
-      "sdg5": 12,
-      "sdg7": 97,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "As planetary health impacts public health we are committed to limiting our impact on the environment and the climate. Our company purpose Breakthroughs that change patients lives guides our environmental priorities with focus on impact reduction conservation of resources and the reduction of waste arising from our operations. Climate Change Our Climate Ambitions Reducing Emissions From Our Operations Accelerating Action Across Our Supply Chain Proactive External Engagement Understanding How Climate Change Could Impact Our Business Sustainable Medicines Pharmaceuticals In The Environment Waste Water Stress Environment How our approach to environmental sustainability supports the SDGs Industry Innovation and Infrastructure We promote resilient and sustainable infrastructure scientific research and innovation. Responsible Consumption and Production We aim to achieve environmentally sound life cycle management and adopt sustainable practices Climate Action Through our goals we are taking urgent action to combat climate change and its impacts. More information on the SDGs here.",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
+      "presence": true,
+      "concreatness": 56,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [
+        {
+          "text": "Our company purpose - Breakthroughs that change patients' lives",
+          "tense": "present",
+          "factuality": "hard"
+        },
+        {
+          "text": "Responsible Consumption and Production : We aim to achieve environmentally",
+          "tense": "future",
+          "factuality": "easy"
+        },
+        {
+          "text": "Climate Action : Through our goals we are taking urgent action to combat climate change and its impacts",
+          "tense": "present",
+          "factuality": "easy"
+        }
+      ],
+
+      "naturalLanguageExplanation": "This text mention SDG 5. It refers to gender equality, empowerment of women. It also mention other SDGs like  environmental sustainability and responsible consumption. We can also highlight that this text explain the urge to act in order to fight climate change."
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "**A change of law about frozen sperm up to 50 years ago",
+      "question": "How does the company's approach to environmental sustainability support the SDGs?",
+      "correctAnswer": "By promoting resilient and sustainable infrastructure, scientific research, and innovation",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "By supporting initiatives for gender equality in the workplace",
+        "By focusing on impact reduction, conservation of resources, and reducing waste from operations",
+        "By taking urgent action to combat climate change and its impacts",
+        "By aiming to achieve environmentally sound life cycle management and adopting sustainable practices "
       ]
     }
   },
@@ -170,29 +224,35 @@
     "isFalsePositive": false,
     "isTrueNegative": true,
     "isQualification": false,
-    "title": "Improving energy efficiency / Dia ESG but not able to find it",
+    "title": "Improving energy efficiency",
     "subtitle": " False Negative ",
-    "content": "2020 brought significant new challenges and global need for solidarity, which motivated us to continue growing in an environment of constant corporate transformation and adaptation. We have attached great importance to integrating social responsibility criteria into our strategic approach and have worked to generate positive contribution to society in both the short and long term. This year we joined Forética to reinforce our commitment to society. This will allow us to make further progress in integrating social, environmental and good governance aspects into the company strategy and management. As an active responsible member of society, we have launched various initiatives to help curb the spread of the virus and mitigate its effects. We continue to work with Fundacion Quiro Trabajo to support employment for women at risk of social exclusion due to their status: migrants, applicants for international protection and refugees, adults over 45, single mothers, etc. During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.",
+    "content": "2020 brought significant new challenges and global need for solidarity, which motivated us to continue growing in an environment of constant corporate transformation and adaptation. We have attached great importance to integrating social responsibility criteria into our strategic approach and have worked to generate positive contribution to society in both the short and long term. This year we joined Forética to reinforce our commitment to society. This will allow us to make further progress in integrating social, environmental and good governance aspects into the company strategy and management. As an active responsible member of society, we have launched various initiatives to help curb the spread of the virus and mitigate its effects. We continue to work with Fundacion Quiro Trabajo to support employment for women at risk of social exclusion due to their status: migrants, applicants for international protection and refugees, adults over 45, single mothers, etc. <mark>During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.</mark>",
     "source": "Trustworthy Source",
     "category": "Customer goods / shops",
-    "publishingDate": "10/28/2022",
+    "publishingDate": "2022",
     "label": "true",
     "xaiFeatures": {
-      "sdg5": 12,
-      "sdg7": 11,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "Sustainability Report Social responsibility brought significant new challenges and global need for solidarity which motivated us to continue growing in an environment of constant corporate transformation and adaptation. We have attached great importance to integrating social responsibility criteria into our strategic approach and have worked to generate positive contribution to society in both the short and long term. This year we joined For tica to reinforce our commitment to society. This will allow us to make further progress in integrating social environmental and good governance aspects into the company strategy and management. We strive to have positive impact on our society driving positive change and promoting diversity inclusion and the well being of the communities we serve. PRIORITIES PROGRESS TARGETS Job creation Diversity and equality Forge partnerships for social development Solidarity initiative launched to mitigate the impact of Covid for the most vulnerable Our brands have continued to advocate in solidarity with empowerment for women and to promote social inclusion We joined For tica Promote corporate volunteering initiatives in the digital environment Enhance social partnerships with institutions through our brands Align our social initiatives with the Agenda As an active responsible member of society we have launched various initiatives to help curb the spread of the virus and mitigate its effects. To find out about the company safety and health activities in response to Covid please access the specific section on our response to the challenges of the pandemic",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
+      "presence": false,
+      "concreatness": 11,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [
+        {
+          "text": "During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.",
+          "tense": "future",
+          "factuality": "hard"
+        }
+      ],
+      "naturalLanguageExplanation": "The text addresses several Sustainable Development Goals (SDGs). Efforts to support employment for marginalized groups reflect  SDG 8 (Decent Work and Economic Growth). The mentoring sessions for empowerment correspond to various goals like SDG 1 (No Poverty) and SDG 10 (Reduced Inequalities).. "
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "A change of law about frozen sperm up to 50 years ago",
+      "question": "What organization did the company join in 2020 to reinforce its commitment to societal well-being?",
+      "correctAnswer": "Forética",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "GreenPeace",
+        "UNESCO",
+        "Doctors Without Borders",
+        "Red Cross"
       ]
     }
   },
@@ -202,29 +262,50 @@
     "isFalsePositive": false,
     "isTrueNegative": false,
     "isQualification": true,
-    "title": "ESG Report",
+    "title": "Empowering women for professional development",
     "subtitle": "SDG 5 / Code 232 / training /  Page 132 / Need verification because it doesn't explain much about gender equality",
-    "content": "We are committed to equal opportunity for women. For us, the advancement of women begins with the young generation. With actions such as 'Girls'Day' and the 'Genius' education initiative, Daimler is supporting the goal of arousing the interest of girls as well in technical careers and promoting young engineers. We also address women as a specific target group at college career fairs and 'Women Career Days'. <br> Our measurs for promoting the advancement of women extend along the entire 'employee journey' and involve everything from recruiting to onboarding and individual professional development. Among other things, we offer special leadership workshops and mentoring programs that aim to prepare women for work in management positions and help us achieve the targets we have set for ourselves for the proportions of women in management positions. Exchange is promoted by means of networks specifically created by and for women employed at Daimler.",
+    "content": "<mark>We are committed to equal opportunity for women</mark>. For us, the advancement of women begins with the young generation. <mark>With actions such as 'Girls'Day' and the 'Genius' education initiative, Daimler is supporting the goal of arousing the interest of girls as well in technical careers and promoting young engineers</mark>.  <mark>We also address women as a specific target group at college career fairs and 'Women Career Days'</mark>. <br> Our measurs for promoting the advancement of women extend along the entire 'employee journey' and involve everything from recruiting to onboarding and individual professional development. Among other things, we offer special leadership workshops and mentoring programs that aim to prepare women for work in management positions and help us achieve the targets we have set for ourselves for the proportions of women in management positions. <mark>Exchange is promoted by means of networks specifically created by and for women employed at Daimler</mark>.",
     "source": "Trustworthy Source",
     "category": "Autonomous driving",
     "publishingDate": "2020",
     "label": "true",
     "xaiFeatures": {
-      "sdg5": 66,
-      "sdg7": 34,
-      "factuality": "hard",
-      "tense": "future",
-      "highlightedContent": "Electrification autonomous driving connected urban mobility It is not just our products that are changing fast lots of things in the company are changing too. We are digitalizing our value creation processes and thus our work. Our employees will need to be able to successfully address variety of challenges in the digital world of the future and it is our stated goal to ensure they will be able to do so. An open attitude regarding the digital transformation and digital skills along with diverse and inclusive corporate culture form the basis for achieving this goal. This is because only in culture marked by respect and trust can all employees unlock their full potential and thus enable the company to undergo successful and sustainable digital transformation. \n More than anything else we owe our Group's success worldwide to our highly motivated employees who contribute their expertise and ideas to their respective tasks and work processes and help make improvements and create innovations. This is why we support all of our employees with their tasks and offer them effective training measures throughout their careers that enable them to develop further both professionally and personally. We therefore invest extensively in their training and professional development and continually refine our human resources development programs. Here we focus on requirements associated with the transformation of the automotive industry in terms of alternative drive system technologies and digitalization in particular. We also take measures that ensure fair opportunities and healthy working environment.",
+      "presence": true,
+      "concreatness": 86,
+      "generalFactuality": "hard",
+      "generalTense": "future",
+      "highlightedContent": [
+        {
+          "text": "We are committed to equal opportunity for women",
+          "tense": "present",
+          "factuality": "hard"
+        },
+        {
+          "text": "With actions such as 'Girls'Day' and the 'Genius' education initiative, Daimler is supporting the goal of arousing the interest of girls as well in technical careers and promoting young engineers",
+          "tense": "present",
+          "factuality": "medium"
+        },
+        {
+          "text": "We also address women as a specific target group at college career fairs and 'Women Career Days'",
+          "tense": "future",
+          "factuality": "hard"
+        },
+        {
+          "text": "Exchange is promoted by means of networks specifically created by and for women employed at Daimler.",
+          "tense": "present",
+          "factuality": "hard"
+        }
+      ],
       "naturalLanguageExplanation": "The mentioned text does not explicitly mention SDG 5 (Gender Equality). It primarily focuses on the company's transformation towards digitalization, the importance of digital skills, and the need for a diverse and inclusive corporate culture to support their employees' growth and development. The text also highlights the company's support for employees' tasks and their investment in training and professional development. "
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "*** A change of law about frozen sperm up to 50 years ago",
+      "question": "What initiatives does Daimler employ to promote gender equality and support the advancement of women in the workplace?",
+      "correctAnswer": "Daimler conducts special leadership workshops and mentoring programs to prepare women for work in management positions.",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "Daimler promotes gender equality by organizing events solely for men, excluding women from these opportunities.",
+        " Daimler does not participate in any career fairs or initiatives targeting women in technical fields.",
+        "Daimler focuses exclusively on recruiting women for management positions, excluding men from these roles.",
+        "Daimler organizes \"Boys'Day\" and the \"Genius\" education initiative to encourage young boys to pursue technical careers."
       ]
     }
   },
@@ -236,27 +317,27 @@
     "isQualification": true,
     "title": "ESG Report",
     "subtitle": "Qualif SDG 7 / Code 275 / training / To change / BT 2021 page 6",
-    "content": "Velatia has more than fifty years of experience in renewable, efficient and sustainable technologies. To make the energy transition effective, smart grids, renewable energy and fast and ultra-fast charging for electric vehicles are needed. Ormazabal, as a strategic supplier to electricity companies, collaborates in decarbonisation through the development of products linked to renewable energy, digitalisation, services associated with energy efficiency in companies and sustainable mobility. It also purchases electricity with a renewable energy certificate to complete its efforts in this area. Ormazabal, a group company specialising in electricity grids, has always been committed to technological exploration and innovation in the field of  renewable energies. For several years now, it has been working closely with the main global and local wind turbine manufacturers in the countries  where it operates. This allows it to supply the products and services that form part of these essential infrastructures for the transition to a low-carbon, low-emission green economy, in accordance with the UN’s commitment in its SDG 7 and the European Green Pact. The future of decarbonisation  depends on meeting our climate commitments today. Commitments that, without a doubt, cannot be undertaken without an electricity grid prepared  to adapt to electric vehicles and the increasing implementation of multi-point renewable generation sources. Reducing its footprint: Velatia has reduced the intensity of its CO2 emissions by 42 % compared with 2019.",
+    "content": "Velatia has more than fifty years of experience in renewable, efficient and sustainable technologies. To make the energy transition effective, smart grids, renewable energy and fast and ultra-fast charging for electric vehicles are needed. Ormazabal, as a strategic supplier to electricity companies, collaborates in decarbonisation through the development of products linked to renewable energy, digitalisation, services associated with energy efficiency in companies and sustainable mobility. It also purchases electricity with a renewable energy certificate to complete its efforts in this area. Ormazabal, a group company specialising in electricity grids, has always been committed to technological exploration and innovation in the field of  renewable energies.",
     "source": "Trustworthy Source",
     "category": "Electrification",
-    "publishingDate": "10/28/2022",
+    "publishingDate": "2021",
     "label": "true",
     "xaiFeatures": {
-      "sdg5": 41,
-      "sdg7": 90,
-      "factuality": "hard",
-      "tense": "past",
-      "highlightedContent": "Velatia has more than fifty years of experience in renewable, efficient and sustainable technologies. To make the energy transition effective, smart grids, renewable energy and fast and ultra-fast charging for electric vehicles are needed. Ormazabal, as a strategic supplier to electricity companies, collaborates in decarbonisation through the development of products linked to renewable energy, digitalisation, services associated with energy efficiency in companies and sustainable mobility. It also purchases electricity with a renewable energy certificate to complete its efforts in this area. Ormazabal, a group company specialising in electricity grids, has always been committed to technological exploration and innovation in the field of  renewable energies. For several years now, it has been working closely with the main global and local wind turbine manufacturers in the countries  where it operates. This allows it to supply the products and services that form part of these essential infrastructures for the transition to a low-carbon, low-emission green economy, in accordance with the UN’s commitment in its SDG 7 and the European Green Pact. The future of decarbonisation  depends on meeting our climate commitments today. Commitments that, without a doubt, cannot be undertaken without an electricity grid prepared  to adapt to electric vehicles and the increasing implementation of multi-point renewable generation sources. Reducing its footprint: Velatia has reduced the intensity of its CO2 emissions by 42 % compared with 2019.",
-      "naturalLanguageExplanation": "According to the article, a new law allows using sperm which is up to 50 years old. Scientists have shown that also old sperm can be sucessfully used to give birth to babies. "
+      "presence": false,
+      "concreatness": 12,
+      "generalFactuality": "hard",
+      "generalTense": "past",
+      "highlightedContent": [],
+      "naturalLanguageExplanation": "The provided text primarily emphasizes SDG 7 (Affordable and Clean Energy) by discussing Velatia's contributions to the energy transition through renewable technologies, smart grids, and sustainable mobility solutions. While the text does not directly mention SDG 5 (Gender Equality), it highlights Velatia's commitment to environmental sustainability and the transition to a low-carbon economy. This focus on sustainability indirectly contributes to the broader context of gender equality by fostering a cleaner, healthier environment, which can positively impact women's well-being, aligning with the spirit of SDG 5."
     },
     "controlQuestion": {
-      "question": "What was the article about?",
-      "correctAnswer": "*** A change of law about frozen sperm up to 50 years ago",
+      "question": "Which of the following statements accurately reflects the content of the text?",
+      "correctAnswer": "Smart grids and renewable energy are essential components for effective energy transition, according to the text.",
       "wrongAnswers": [
-        "A change of law about about frozen babies",
-        "A change of law about frozen animals",
-        "Frozen sperm should be made freely available for all women",
-        "Frozen sperm has become a new ice cream"
+        "Velatia primarily focuses on fossil fuel technologies for energy transition.",
+        "Ormazabal collaborates in decarbonisation through the development of products unrelated to renewable energy.",
+        "Ormazabal purchases electricity with a nuclear energy certificate.",
+        "Ormazabal is not committed to technological exploration and innovation in renewable energies."
       ]
     }
   }
