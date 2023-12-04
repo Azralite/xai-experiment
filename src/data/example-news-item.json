@@ -12,17 +12,17 @@
   "xaiFeatures": {
     "presence": true,
     "concreatness": 58,
-    "generalFactuality": "hard",
+    "generalFactuality": "high",
     "generalTense": "present",
     "highlightedContent": [
       {
         "text": "There is still a long way to go on gender equality",
-        "factuality": "hard",
+        "factuality": "high",
         "tense": "future"
       },
       {
         "text": "firm determination to incorporate a culture of equal opportunities",
-        "factuality": "hard",
+        "factuality": "high",
         "tense": "future"
       },
       {
@@ -32,12 +32,12 @@
       },
       {
         "text": "equality plans initiated in previous years",
-        "factuality": "hard",
+        "factuality": "high",
         "tense": "past"
       },
       {
         "text": "include aspects such as payroll records and work-life balance measures",
-        "factuality": "hard",
+        "factuality": "high",
         "tense": "future"
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "text": "placing special emphasis on promoting the incorporation of women",
-        "factuality": "easy",
+        "factuality": "low",
         "tense": "future"
       }
     ],

@@ -120,6 +120,10 @@ const getPagesForNewsItem = (
               value: 'indications-useful',
             },
             {
+              text: 'The indications given by the AI-System are useful to assess the concreteness of the SDG',
+              value: 'indications-useful-concreteness',
+            },
+            {
               text: 'The presented explanations are comprehensible and help me with assessing the company report',
               value: 'explanations-comprehensible-and-help-assess',
             },
@@ -137,7 +141,7 @@ const getPagesForNewsItem = (
               type: 'html',
               maxWidth: '900px',
               html: `<div>
-          <b>Attention</b>: you entered an incorrect answer to the control question! In order to receive the <b>bonus of 5 €</b> you need to answer at least <b>5 control questions correctly!</b> Please read the news items carefully.
+          <b>Attention</b>: you entered an incorrect answer to the control question! In order to receive the <b>bonus of 5 €</b> you need to answer at least <b>5 control questions correctly!</b> Please read the report items carefully.
           </div>`,
             },
           ],

@@ -10,6 +10,9 @@ import NewsItem from '@/model/news-item';
 import newsDashboardEvaluation from './parts/news-dashboard-evaluation';
 import bonusInfo from './parts/bonus-info';
 import learning from './parts/learning';
+import expectations from './parts/expectations';
+import informationLiteracy from './parts/information-literacy';
+import informationSeekingBehaviour from './parts/information-seeking-behaviour';
 
 export const mainQuestionnaire = (
   newsItems: NewsItem[],
@@ -25,12 +28,16 @@ export const mainQuestionnaire = (
     showProgressBar: 'top',
     pages: [
       mainStartPage,
-      ...tutorial(xaiFeatures),
-      youAreReady,
+      // ...tutorial(xaiFeatures),
+      // youAreReady,
       ...experimentPages(newsItems, xaiFeatures, 'main'),
       almostDone,
+      expectations,
+      informationLiteracy,
+      ...informationSeekingBehaviour,
       ...aiSystemEvaluation(xaiFeatures),
       newsDashboardEvaluation,
+
       demographics,
       bonusInfo,
     ],

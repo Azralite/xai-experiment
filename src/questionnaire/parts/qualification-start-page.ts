@@ -26,7 +26,7 @@ const qualificationStartPage = {
           </p>
           </br>
           <p>
-          <b>2. Main job:</b> You will be asked to rate <b>6 reports</b> if they contain SDG or not (1 €). If you answer <b>5</b> of the <b>6</b> control questions correctly you will receive a <b>bonus of 5 € (overall 6 €)</b>. Please pay attention to the control questions and read the companies reports carefully (15-20min).
+          <b>2. Main job:</b> You will be asked to rate <b>6 reports</b> if they contain an SDG or not (1 €). If you answer <b>5</b> of the <b>6</b> control questions correctly you will receive a <b>bonus of 5 € (overall 6 €)</b>. Please pay attention to the control questions and read the companies reports carefully (15-20min).
           </p>
           </br>
           <p>
@@ -34,7 +34,7 @@ const qualificationStartPage = {
           </p>
           </br>
           <p style="text-align: center;">
-          <b>Thank you for supporting our research and help to investigate on fake news!</b>
+          <b>Thank you for supporting our research and help to investigate on SDG Detection!</b>
           </p>
         </div>
     `,

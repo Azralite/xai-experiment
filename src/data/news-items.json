@@ -13,17 +13,17 @@
     "xaiFeatures": {
       "presence": true,
       "concreatness": 87,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "present",
       "highlightedContent": [
         {
           "text": "There is still a long way to go on gender equality",
-          "factuality": "hard",
+          "factuality": "high",
           "tense": "future"
         },
         {
           "text": "firm determination to incorporate a culture of equal opportunities",
-          "factuality": "hard",
+          "factuality": "high",
           "tense": "future"
         },
         {
@@ -33,12 +33,12 @@
         },
         {
           "text": "equality plans initiated in previous years",
-          "factuality": "hard",
+          "factuality": "high",
           "tense": "past"
         },
         {
           "text": "include aspects such as payroll records and work-life balance measures",
-          "factuality": "hard",
+          "factuality": "high",
           "tense": "future"
         },
         {
@@ -48,7 +48,7 @@
         },
         {
           "text": "placing special emphasis on promoting the incorporation of women",
-          "factuality": "easy",
+          "factuality": "low",
           "tense": "future"
         }
       ],
@@ -59,10 +59,8 @@
       "question": "What did Velatia complete in 2021 regarding gender equality and their organization's performance?",
       "correctAnswer": "Velatia self-diagnosed their performance, including women in Human Rights Due Diligence measures.",
       "wrongAnswers": [
-        "Velatia initiated gender equality plans.",
-        "Velatia reduced the legal requirements for gender equality.",
-        "Velatia's commitment to equality was revealed to be unsatisfactory.",
-        "Velatia collaborated with the Biscayan Federation of Metal Companies to promote gender inequality."
+        "Velatia fired 100 man to achieve gender equality.",
+        "Velatia collaborated with Google to promote gender inequality."
       ]
     }
   },
@@ -79,8 +77,8 @@
     "publishingDate": "2022",
     "xaiFeatures": {
       "presence": false,
-      "concreatness": 97,
-      "generalFactuality": "hard",
+      "concreatness": 1,
+      "generalFactuality": "high",
       "generalTense": "past",
       "highlightedContent": [],
       "naturalLanguageExplanation": "The text mentions SDG 7 (Affordable and Clean Energy) by emphasizing the need for energy-efficient technology and renewable energy implementation to reach carbon neutrality. It discusses the importance of electrification as an enabler for the energy transition, especially in the mobility sector on land and at sea. By engineering electric solutions for marine transport, such as the Editron electric marine system used in the Ellen electric ferry, the company contributes to reducing greenhouse gas emissions and improving air quality, aligning with the goal of clean and sustainable energy (SDG 7). "
@@ -89,10 +87,8 @@
       "question": "What is a key solution mentioned in the text for achieving carbon neutrality and reducing global greenhouse gas emissions?",
       "correctAnswer": "Prioritizing electrification in the mobility sector on land and sea",
       "wrongAnswers": [
-        "Implementing energy-efficient technology alone",
-        "Focusing only on turning energy supply green",
-        "Emphasizing economic growth over energy demand",
-        "Reducing emissions solely from wind energy"
+        "Focusing only on coal energy supply",
+        "Using nuclear power"
       ]
     }
   },
@@ -111,9 +107,9 @@
     "label": "true",
     "xaiFeatures": {
       "presence": true,
-      "concreatness": 66,
-      "generalFactuality": "hard",
-      "generalTense": "past",
+      "concreatness": 45,
+      "generalFactuality": "low",
+      "generalTense": "present",
       "highlightedContent": [
         {
           "text": "We have specific focus on gender diversity and aim to continuously improve the number of female leaders at all levels.",
@@ -123,7 +119,7 @@
         {
           "text": "Our social investment projects also often empower women in society",
           "tense": "future",
-          "factuality": "easy"
+          "factuality": "low"
         }
       ],
       "naturalLanguageExplanation": "The text mentions SDG 5 (Gender Equality) by stating that the company has a specific focus on gender diversity and aims to improve the number of female leaders at all levels. The company's social investment projects also empower women in society, aligning with the goal of promoting women's empowerment.  \n The text mentions SDG 7 (Affordable and Clean Energy) by indicating the company's effort to increase its use of renewable energy sources, contributing to the goal of sustainable and clean energy access (SDG 7). The company's focus on achieving more with less aligns with the goal's emphasis on using energy efficiently and sustainably."
@@ -133,9 +129,7 @@
       "correctAnswer": "The company promotes gender diversity and works to improve the number of female leaders at all levels",
       "wrongAnswers": [
         "The company only focuses on promoting health and safety among its employees and contractors.",
-        "The Electrolux Food Foundation and Feed the Planet partnership focus on vocational culinary training exclusively for women.",
-        "The company aims to increase its share of energy from renewable sources to 30%.",
-        "The company's laundry products are not involved in promoting sanitation in homes, hotels, and hospitals."
+        "The Electrolux Food Foundation and Feed the Planet partnership focus on vocational culinary training exclusively for women."
       ]
     }
   },
@@ -153,7 +147,7 @@
     "xaiFeatures": {
       "presence": false,
       "concreatness": 9,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "past",
       "highlightedContent": [],
       "naturalLanguageExplanation": "The text indirectly refers to both SDG 5 (Gender Equality). While it doesn't explicitly address these goals, it mentions sustainable practices that align with them. The commitment to ethical principles and legal compliance, as well as collaboration with various entities, reflects a broader engagement with sustainability, including potential contributions to gender equality (SDG 5) through inclusive practices and partnerships."
@@ -162,10 +156,8 @@
       "question": "How does the company reduce water consumption in agriculture?",
       "correctAnswer": "By utilizing advanced ICT solutions in agriculture.",
       "wrongAnswers": [
-        "By promoting energy-efficient irrigation techniques.",
         "By increasing the use of fertilizers.",
-        "By implementing traditional farming methods.",
-        "By reducing the use of agricultural machinery."
+        "By implementing traditional farming methods."
       ]
     }
   },
@@ -185,23 +177,23 @@
     "xaiFeatures": {
       "presence": true,
       "concreatness": 56,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "past",
       "highlightedContent": [
         {
           "text": "Our company purpose - Breakthroughs that change patients' lives",
           "tense": "present",
-          "factuality": "hard"
+          "factuality": "high"
         },
         {
           "text": "Responsible Consumption and Production : We aim to achieve environmentally",
           "tense": "future",
-          "factuality": "easy"
+          "factuality": "low"
         },
         {
           "text": "Climate Action : Through our goals we are taking urgent action to combat climate change and its impacts",
           "tense": "present",
-          "factuality": "easy"
+          "factuality": "low"
         }
       ],
 
@@ -212,9 +204,7 @@
       "correctAnswer": "By promoting resilient and sustainable infrastructure, scientific research, and innovation",
       "wrongAnswers": [
         "By supporting initiatives for gender equality in the workplace",
-        "By focusing on impact reduction, conservation of resources, and reducing waste from operations",
-        "By taking urgent action to combat climate change and its impacts",
-        "By aiming to achieve environmentally sound life cycle management and adopting sustainable practices "
+        "By taxing their employee who use too much their car"
       ]
     }
   },
@@ -226,7 +216,7 @@
     "isQualification": false,
     "title": "Improving energy efficiency",
     "subtitle": " False Negative ",
-    "content": "2020 brought significant new challenges and global need for solidarity, which motivated us to continue growing in an environment of constant corporate transformation and adaptation. We have attached great importance to integrating social responsibility criteria into our strategic approach and have worked to generate positive contribution to society in both the short and long term. This year we joined Forética to reinforce our commitment to society. This will allow us to make further progress in integrating social, environmental and good governance aspects into the company strategy and management. As an active responsible member of society, we have launched various initiatives to help curb the spread of the virus and mitigate its effects. We continue to work with Fundacion Quiro Trabajo to support employment for women at risk of social exclusion due to their status: migrants, applicants for international protection and refugees, adults over 45, single mothers, etc. <mark>During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.</mark>",
+    "content": "2020 brought significant new challenges and global need for solidarity, which motivated us to continue growing in an environment of constant corporate transformation and adaptation. We have attached great importance to integrating social responsibility criteria into our strategic approach and have worked to generate positive contribution to society in both the short and long term. This year we joined Forética to reinforce our commitment to society. This will allow us to make further progress in integrating social, environmental and good governance aspects into the company strategy and management. As an active responsible member of society, we have launched various initiatives to help curb the spread of the virus and mitigate its effects. We continue to work with Fundacion Quiro Trabajo to support employment for women at risk of social exclusion due to their status: migrants, applicants for international protection and refugees, adults over 45, single mothers, etc. During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.",
     "source": "Trustworthy Source",
     "category": "Customer goods / shops",
     "publishingDate": "2022",
@@ -234,26 +224,15 @@
     "xaiFeatures": {
       "presence": false,
       "concreatness": 11,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "past",
-      "highlightedContent": [
-        {
-          "text": "During the pandemic, mentoring sessions were offered to users online to help empower them and improve their self-esteem and allow them to participate in recruitment process with confidence and security.",
-          "tense": "future",
-          "factuality": "hard"
-        }
-      ],
+      "highlightedContent": [],
       "naturalLanguageExplanation": "The text addresses several Sustainable Development Goals (SDGs). Efforts to support employment for marginalized groups reflect  SDG 8 (Decent Work and Economic Growth). The mentoring sessions for empowerment correspond to various goals like SDG 1 (No Poverty) and SDG 10 (Reduced Inequalities).. "
     },
     "controlQuestion": {
       "question": "What organization did the company join in 2020 to reinforce its commitment to societal well-being?",
       "correctAnswer": "Forética",
-      "wrongAnswers": [
-        "GreenPeace",
-        "UNESCO",
-        "Doctors Without Borders",
-        "Red Cross"
-      ]
+      "wrongAnswers": ["GreenPeace", "Doctors Without Borders"]
     }
   },
   {
@@ -272,13 +251,13 @@
     "xaiFeatures": {
       "presence": true,
       "concreatness": 86,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "future",
       "highlightedContent": [
         {
           "text": "We are committed to equal opportunity for women",
           "tense": "present",
-          "factuality": "hard"
+          "factuality": "high"
         },
         {
           "text": "With actions such as 'Girls'Day' and the 'Genius' education initiative, Daimler is supporting the goal of arousing the interest of girls as well in technical careers and promoting young engineers",
@@ -288,12 +267,12 @@
         {
           "text": "We also address women as a specific target group at college career fairs and 'Women Career Days'",
           "tense": "future",
-          "factuality": "hard"
+          "factuality": "high"
         },
         {
           "text": "Exchange is promoted by means of networks specifically created by and for women employed at Daimler.",
           "tense": "present",
-          "factuality": "hard"
+          "factuality": "high"
         }
       ],
       "naturalLanguageExplanation": "The mentioned text does not explicitly mention SDG 5 (Gender Equality). It primarily focuses on the company's transformation towards digitalization, the importance of digital skills, and the need for a diverse and inclusive corporate culture to support their employees' growth and development. The text also highlights the company's support for employees' tasks and their investment in training and professional development. "
@@ -302,8 +281,6 @@
       "question": "What initiatives does Daimler employ to promote gender equality and support the advancement of women in the workplace?",
       "correctAnswer": "Daimler conducts special leadership workshops and mentoring programs to prepare women for work in management positions.",
       "wrongAnswers": [
-        "Daimler promotes gender equality by organizing events solely for men, excluding women from these opportunities.",
-        " Daimler does not participate in any career fairs or initiatives targeting women in technical fields.",
         "Daimler focuses exclusively on recruiting women for management positions, excluding men from these roles.",
         "Daimler organizes \"Boys'Day\" and the \"Genius\" education initiative to encourage young boys to pursue technical careers."
       ]
@@ -325,7 +302,7 @@
     "xaiFeatures": {
       "presence": false,
       "concreatness": 12,
-      "generalFactuality": "hard",
+      "generalFactuality": "high",
       "generalTense": "past",
       "highlightedContent": [],
       "naturalLanguageExplanation": "The provided text primarily emphasizes SDG 7 (Affordable and Clean Energy) by discussing Velatia's contributions to the energy transition through renewable technologies, smart grids, and sustainable mobility solutions. While the text does not directly mention SDG 5 (Gender Equality), it highlights Velatia's commitment to environmental sustainability and the transition to a low-carbon economy. This focus on sustainability indirectly contributes to the broader context of gender equality by fostering a cleaner, healthier environment, which can positively impact women's well-being, aligning with the spirit of SDG 5."
@@ -335,9 +312,7 @@
       "correctAnswer": "Smart grids and renewable energy are essential components for effective energy transition, according to the text.",
       "wrongAnswers": [
         "Velatia primarily focuses on fossil fuel technologies for energy transition.",
-        "Ormazabal collaborates in decarbonisation through the development of products unrelated to renewable energy.",
-        "Ormazabal purchases electricity with a nuclear energy certificate.",
-        "Ormazabal is not committed to technological exploration and innovation in renewable energies."
+        "Ormazabal purchases electricity with a nuclear energy certificate."
       ]
     }
   }

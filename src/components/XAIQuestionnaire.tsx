@@ -70,18 +70,18 @@ const XAIQuestionnaire = ({
       sender.currentPage = sender.getPageByName('tutorial-text');
     }
     // complete questionnaire if user answers incorrectly in the qualification survey
-    else if (
-      part === 'qualification' &&
-      options.oldCurrentPage.name === 'control-question'
-    ) {
-      const hasIncorrectAnswer = sender
-        .getQuizQuestions()
-        .some((question) => !question.isEmpty() && !question.isAnswerCorrect());
+    // else if (
+    //   part === 'qualification' &&
+    //   options.oldCurrentPage.name === 'control-question'
+    // ) {
+    //   const hasIncorrectAnswer = sender
+    //     .getQuizQuestions()
+    //     .some((question) => !question.isEmpty() && !question.isAnswerCorrect());
 
-      if (hasIncorrectAnswer) {
-        survey.doComplete();
-      }
-    }
+    //   if (hasIncorrectAnswer) {
+    //     survey.doComplete();
+    //   }
+    // }
   });
 
   survey.onValueChanged.add((sender, options) => {

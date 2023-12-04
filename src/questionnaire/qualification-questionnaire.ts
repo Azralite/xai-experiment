@@ -1,7 +1,5 @@
 import { XAIFeatureLevel } from '@/model/xai-feature-level';
-import expectations from './parts/expectations';
-import informationLiteracy from './parts/information-literacy';
-import informationSeekingBehaviour from './parts/information-seeking-behaviour';
+
 import experimentPages from './parts/experiment';
 import tutorial from './parts/tutorial';
 import youAreReady from './parts/you-are-ready';
@@ -29,9 +27,6 @@ export const qualificationQuestionnaire = (
       welcomeToQualification,
       // Should we put learning before or after the questionnaire ?
       learning,
-      expectations,
-      informationLiteracy,
-      ...informationSeekingBehaviour,
 
       ...tutorial(xaiFeatures),
       youAreReady,

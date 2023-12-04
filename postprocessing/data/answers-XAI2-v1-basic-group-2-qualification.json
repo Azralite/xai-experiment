@@ -1,0 +1,608 @@
+[
+  {
+    "aliasId": "B2033746720415C",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434463,
+    "swymerId": "CX_79169039921",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-27T19:08:35Z",
+    "taskStartedTime": "2023-10-27T19:07:14Z",
+    "answerSubmittedTime": "2023-10-27T19:08:34Z",
+    "workDurationInSeconds": 80,
+    "points": 0.0,
+    "pointRatio": 0.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "personal-code": "19713",
+      "METADATA.GROUP": "2",
+      "METADATA.PART": "qualification",
+      "newsitem.7.rating-before-xai": "-1",
+      "confirm.0": "Yes",
+      "understand-task": "Yes",
+      "tutorial.redo-your-rating": "-1",
+      "newsitem.7.rating-after-xai": "-1",
+      "tutorial.your-rating": "88",
+      "METADATA.FEATURE": "basic",
+      "POINTS": "0",
+      "newsitem.7.control-question": "wrong-1"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "1F4369422C36AE1",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434467,
+    "swymerId": "CX_31975747433",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-27T19:25:25Z",
+    "taskStartedTime": "2023-10-27T19:03:56Z",
+    "answerSubmittedTime": "2023-10-27T19:25:25Z",
+    "workDurationInSeconds": 1289,
+    "points": 0.0,
+    "pointRatio": 0.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Mobile/15E148 Safari/604.1"
+    },
+    "formAnswers": {
+      "personal-code": "svm73",
+      "METADATA.GROUP": "2",
+      "METADATA.PART": "qualification",
+      "newsitem.7.rating-before-xai": "73",
+      "confirm.0": "Yes",
+      "understand-task": "Yes",
+      "tutorial.redo-your-rating": "-1",
+      "newsitem.7.rating-after-xai": "62",
+      "tutorial.your-rating": "69",
+      "METADATA.FEATURE": "basic",
+      "POINTS": "0",
+      "newsitem.7.control-question": "wrong-1"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "E394AE99C851014",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434464,
+    "swymerId": "CX_45693629436",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-27T20:09:03Z",
+    "taskStartedTime": "2023-10-27T19:58:52Z",
+    "answerSubmittedTime": "2023-10-27T20:09:03Z",
+    "workDurationInSeconds": 611,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "POB97",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "84",
+      "newsitem.7.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "7",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "47",
+      "newsitem.8.system-evaluation.classified-correctly": "3",
+      "newsitem.8.system-evaluation.xai-features-useful": "5",
+      "newsitem.8.system-evaluation.indications-useful": "5",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "tutorial.your-rating": "15",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.rating-after-xai": "87",
+      "newsitem.8.rating-before-xai": "-1",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "3",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "720CC2800537953",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434465,
+    "swymerId": "CX_671253374840",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-27T21:16:47Z",
+    "taskStartedTime": "2023-10-27T21:08:22Z",
+    "answerSubmittedTime": "2023-10-27T21:16:47Z",
+    "workDurationInSeconds": 505,
+    "points": 1.0,
+    "pointRatio": 0.5,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "newsitem.8.rating-after-xai": "58",
+      "personal-code": "X",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "58",
+      "newsitem.7.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "6",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "55",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "tutorial.your-rating": "58",
+      "POINTS": "1",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "wrong-1",
+      "understand-task": "Yes",
+      "newsitem.7.rating-after-xai": "58",
+      "newsitem.8.rating-before-xai": "58",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "323BDF65F08FD00",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434466,
+    "swymerId": "CX_381218321691",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-27T21:38:50Z",
+    "taskStartedTime": "2023-10-27T21:29:15Z",
+    "answerSubmittedTime": "2023-10-27T21:38:50Z",
+    "workDurationInSeconds": 574,
+    "points": 0.0,
+    "pointRatio": 0.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "personal-code": "VJT09",
+      "METADATA.GROUP": "2",
+      "METADATA.PART": "qualification",
+      "newsitem.7.rating-before-xai": "65",
+      "confirm.0": "Yes",
+      "understand-task": "Yes",
+      "tutorial.redo-your-rating": "59",
+      "newsitem.7.rating-after-xai": "84",
+      "tutorial.your-rating": "59",
+      "METADATA.FEATURE": "basic",
+      "POINTS": "0",
+      "newsitem.7.control-question": "wrong-2"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "F3F60D02668F6CA",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434469,
+    "swymerId": "CX_971252466090",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T00:08:08Z",
+    "taskStartedTime": "2023-10-27T22:54:26Z",
+    "answerSubmittedTime": "2023-10-28T00:08:08Z",
+    "workDurationInSeconds": 4422,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36 EdgA/118.0.2088.66"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "7",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "Abc12",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "80",
+      "newsitem.7.system-evaluation.understand-what-system-does": "7",
+      "newsitem.7.system-evaluation.indications-useful": "7",
+      "newsitem.7.system-evaluation.classified-correctly": "7",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "50",
+      "newsitem.8.system-evaluation.classified-correctly": "7",
+      "newsitem.8.system-evaluation.xai-features-useful": "7",
+      "newsitem.8.system-evaluation.indications-useful": "7",
+      "newsitem.7.system-evaluation.xai-features-useful": "7",
+      "tutorial.your-rating": "66",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "7",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "7",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "7",
+      "newsitem.7.rating-after-xai": "85",
+      "newsitem.8.rating-before-xai": "-1",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "7",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "58C049722B98CDF",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434471,
+    "swymerId": "CX_771218481201",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T03:14:29Z",
+    "taskStartedTime": "2023-10-28T03:10:29Z",
+    "answerSubmittedTime": "2023-10-28T03:14:29Z",
+    "workDurationInSeconds": 239,
+    "points": 0.0,
+    "pointRatio": 0.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "Jcm92",
+      "METADATA.GROUP": "2",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "wrong-2",
+      "confirm.0": "Yes",
+      "understand-task": "Yes",
+      "tutorial.redo-your-rating": "58",
+      "tutorial.your-rating": "-1",
+      "newsitem.8.rating-before-xai": "-1",
+      "METADATA.FEATURE": "basic",
+      "POINTS": "0"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "FBA36668F93CF6B",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434468,
+    "swymerId": "CX_011260471007",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T03:27:52Z",
+    "taskStartedTime": "2023-10-28T02:53:04Z",
+    "answerSubmittedTime": "2023-10-28T03:27:52Z",
+    "workDurationInSeconds": 2087,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "PFL82",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "54",
+      "newsitem.7.system-evaluation.understand-what-system-does": "5",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "5",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "55",
+      "newsitem.8.system-evaluation.classified-correctly": "6",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "newsitem.8.system-evaluation.xai-features-useful": "6",
+      "newsitem.8.system-evaluation.indications-useful": "6",
+      "tutorial.your-rating": "54",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.rating-after-xai": "67",
+      "newsitem.8.rating-before-xai": "-1",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "6A839B46E9D5087",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434472,
+    "swymerId": "CX_161006834083",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T09:07:27Z",
+    "taskStartedTime": "2023-10-28T08:57:05Z",
+    "answerSubmittedTime": "2023-10-28T09:07:27Z",
+    "workDurationInSeconds": 622,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "4",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "Asb62",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "83",
+      "newsitem.7.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "7",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "48",
+      "newsitem.8.system-evaluation.classified-correctly": "6",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "newsitem.8.system-evaluation.xai-features-useful": "5",
+      "newsitem.8.system-evaluation.indications-useful": "5",
+      "tutorial.your-rating": "43",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "4",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "5",
+      "newsitem.7.rating-after-xai": "82",
+      "newsitem.8.rating-before-xai": "11",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "5",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "E78193B69C4809D",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434473,
+    "swymerId": "CX_42129048083",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T09:10:47Z",
+    "taskStartedTime": "2023-10-28T08:57:34Z",
+    "answerSubmittedTime": "2023-10-28T09:10:47Z",
+    "workDurationInSeconds": 793,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Mobile/15E148 Safari/604.1"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "SKI877",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "56",
+      "newsitem.7.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "6",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "45",
+      "newsitem.8.system-evaluation.classified-correctly": "6",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "newsitem.8.system-evaluation.xai-features-useful": "6",
+      "newsitem.8.system-evaluation.indications-useful": "6",
+      "tutorial.your-rating": "46",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.rating-after-xai": "49",
+      "newsitem.8.rating-before-xai": "-1",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "DB1F244A9CA10AD",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434475,
+    "swymerId": "CX_22307456899",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T12:00:37Z",
+    "taskStartedTime": "2023-10-28T11:34:48Z",
+    "answerSubmittedTime": "2023-10-28T12:00:37Z",
+    "workDurationInSeconds": 1549,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "5",
+      "newsitem.8.rating-after-xai": "80",
+      "personal-code": "VJA94",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "48",
+      "newsitem.7.system-evaluation.understand-what-system-does": "6",
+      "newsitem.7.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.classified-correctly": "7",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "58",
+      "newsitem.8.system-evaluation.classified-correctly": "6",
+      "newsitem.8.system-evaluation.xai-features-useful": "5",
+      "newsitem.8.system-evaluation.indications-useful": "6",
+      "newsitem.7.system-evaluation.xai-features-useful": "6",
+      "tutorial.your-rating": "56",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "6",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "5",
+      "newsitem.7.rating-after-xai": "77",
+      "newsitem.8.rating-before-xai": "81",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "6",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  },
+  {
+    "aliasId": "B99BC3D8C98A06A",
+    "jobId": 1872,
+    "jobName": "XAI2-v1-basic-group-2-qualification",
+    "taskId": 434474,
+    "swymerId": "CX_13462817447",
+    "status": "AUTOMATICALLY_ACCEPTED",
+    "creationTimestamp": "2023-10-28T18:18:20Z",
+    "taskStartedTime": "2023-10-28T17:48:38Z",
+    "answerSubmittedTime": "2023-10-28T18:18:20Z",
+    "workDurationInSeconds": 1781,
+    "points": 2.0,
+    "pointRatio": 1.0,
+    "device": {
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36"
+    },
+    "formAnswers": {
+      "newsitem.7.system-evaluation.explanations-comprehensible-and-help-assess": "7",
+      "newsitem.8.rating-after-xai": "-1",
+      "personal-code": "AHL41",
+      "METADATA.GROUP": "2",
+      "newsitem.7.rating-before-xai": "61",
+      "newsitem.7.system-evaluation.understand-what-system-does": "7",
+      "newsitem.7.system-evaluation.indications-useful": "7",
+      "newsitem.7.system-evaluation.classified-correctly": "7",
+      "confirm.0": "Yes",
+      "tutorial.redo-your-rating": "71",
+      "newsitem.8.system-evaluation.classified-correctly": "7",
+      "newsitem.8.system-evaluation.xai-features-useful": "7",
+      "newsitem.8.system-evaluation.indications-useful": "7",
+      "newsitem.7.system-evaluation.xai-features-useful": "7",
+      "tutorial.your-rating": "77",
+      "newsitem.8.system-evaluation.explanations-comprehensible-and-help-assess": "7",
+      "POINTS": "2",
+      "newsitem.7.control-question": "correct",
+      "newsitem.7.system-evaluation.indications-useful-concreteness": "7",
+      "METADATA.PART": "qualification",
+      "newsitem.8.control-question": "correct",
+      "understand-task": "Yes",
+      "newsitem.8.system-evaluation.understand-what-system-does": "7",
+      "newsitem.7.rating-after-xai": "82",
+      "newsitem.8.rating-before-xai": "-1",
+      "newsitem.8.system-evaluation.indications-useful-concreteness": "7",
+      "METADATA.FEATURE": "basic"
+    },
+    "answers": [],
+    "dynamicContent": [],
+    "dynamicProfile": [
+      {
+        "key": "PARTICIPANT_1872",
+        "owner": "System",
+        "requirementType": "OPTIONAL",
+        "longValue": 1
+      }
+    ]
+  }
+]

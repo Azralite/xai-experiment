@@ -19,15 +19,9 @@ const informationLiteracy = {
       columns: likelihoodLikert7,
       rows: [
         {
-          // Value changed
           value: 'identify-sdg',
           text: '... I can identify a SDG in a text',
         },
-        // {
-        //   // We can keep this one
-        //   value: 'check-reliability',
-        //   text: '... I can check the reliability of the searched information',
-        // },
 
         {
           value: 'identify-authentic-sources',
@@ -49,27 +43,27 @@ const informationLiteracy = {
           // text: '... I have the skill to access information resources for finding relevant literature, about topics I want to verify (e.g. looking up information about climate change and its effect on our everyday life)',
         },
 
-        {
-          value: 'efficiently-use-subscribed-and-openaccess',
-          text: '... the private sector is actively engaged and contributing to the achievement of the SDGs?',
-          // text: '... I can efficiently use subscribed and openaccess information resources when I am looking for information',
-        },
-        {
-          value: 'companies-act',
-          text: '... sustainable development requires that companies act responsibly towards their employees, customers and suppliers?',
-        },
-        {
-          value: 'SCQ-S-A1',
-          text: ' ... that everyone ought to be given the opportunity to aquire the knowledge, values and skills that are necessary to live sustainably.',
-        },
-        {
-          value: 'SCQ-S-A2',
-          text: ' ... that we who are living now should make sure that people in the future enjoy the same quality of life as we do today',
-        },
-        {
-          value: 'SCQ-S-A18',
-          text: ' ... that women and men throughout the world must be given the same opportunities for education and employment.',
-        },
+        // {
+        //   value: 'efficiently-use-subscribed-and-openaccess',
+        //   text: '... the private sector is actively engaged and contributing to the achievement of the SDGs?',
+        //   // text: '... I can efficiently use subscribed and openaccess information resources when I am looking for information',
+        // },
+        // {
+        //   value: 'companies-act',
+        //   text: '... sustainable development requires that companies act responsibly towards their employees, customers and suppliers?',
+        // },
+        // {
+        //   value: 'SCQ-S-A1',
+        //   text: ' ... that everyone ought to be given the opportunity to aquire the knowledge, values and skills that are necessary to live sustainably.',
+        // },
+        // {
+        //   value: 'SCQ-S-A2',
+        //   text: ' ... that we who are living now should make sure that people in the future enjoy the same quality of life as we do today',
+        // },
+        // {
+        //   value: 'SCQ-S-A18',
+        //   text: ' ... that women and men throughout the world must be given the same opportunities for education and employment.',
+        // },
       ],
     },
   ],

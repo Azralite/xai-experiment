@@ -11,7 +11,7 @@ const mainStartPage = {
           </br>
           <p>
           You have answered the control questions correctly and can now do the main job. 
-          In the following you are asked to repeat the ratings you have done in the qualification part for <b>6 news items</b>. 
+          In the following you are asked to repeat the ratings you have done in the qualification part for <b>6 companies reports</b>. 
           </p>
           </br>
           <p>
@@ -19,7 +19,7 @@ const mainStartPage = {
           </p>
           </br>
           <p>
-          <b>Thank you for supporting our research and help to investigate on fake news!</b>
+          <b>Thank you for supporting our research and help to investigate on SDG detection!</b>
           </p>
           </br>
           <p>

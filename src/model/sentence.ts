@@ -1,6 +1,6 @@
 interface Sentence {
   text: string;
-  factuality: 'easy' | 'medium' | 'hard';
+  factuality: 'low' | 'medium' | 'high';
   tense: 'past' | 'present' | 'future';
 }
 

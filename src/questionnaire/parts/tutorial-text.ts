@@ -17,11 +17,11 @@ const tutorialText = (xaiFeatures: XAIFeatureLevel) => {
           </p>
           </br>
           <p>
-            In the following, you will receive eight company's reports which you should rate the presence of each SDG. The company's reports are presented in the <b>News Dashboard</b>, consisting of several <b>AI-system components</b>. Which will be described later in more detail. Your tasks, rating the presence of SDG in a text is divided into <b>three steps</b>: 
+            In the following, you will receive eight company's reports which you should rate the presence of SDG 5. The company's reports are presented in the <b>News Dashboard</b>, consisting of several <b>AI-system components</b>. Which will be described later in more detail. Your tasks, rating the presence of SDG 5 in a text is divided into <b>three steps</b>: 
           </p>
           </br>
           <p>
-            <b>Step 1 -  Read and Rate:</b> Read the news item and rate it for each SDG
+            <b>Step 1 -  Read and Rate:</b> Read the company report and rate it for SDG 5
           </p>
           </br>
           <p>

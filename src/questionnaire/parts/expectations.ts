@@ -35,7 +35,6 @@ const expectations = {
           text: 'In general, I am sceptical about AI',
         },
         {
-          // On a modifié le value, peut etre un risque que ca pete quelque part
           value: 'rely-on-ai-for-sdg-detection',
           text: 'I rely on information provided by an AI system in the context of SDG detection?',
         },

@@ -274,7 +274,8 @@ const NewsItemComponent = ({
                 )}
               </div>
             </div>
-            <div className="line"></div>
+            {/* We hide the publishing date as it don't bring additional information to the user */}
+            {/* <div className="line"></div>
             <div
               css={{
                 display: 'flex',
@@ -287,7 +288,7 @@ const NewsItemComponent = ({
               >
                 <h2>Publishing dates</h2> {newsItem.publishingDate}
               </div>
-            </div>
+            </div> */}
             {xaiFeatures === 'salient' && (
               <>
                 <div className="line"></div>
@@ -307,13 +308,16 @@ const NewsItemComponent = ({
                         explainability feature 1 - general factuality and tense
                       </b>{' '}
                       of the text is displayed here. There are three readability
-                      categories: Easy, Medium, and Hard, and three tense :
-                      Past, Present and Future. The <b>AI-System</b> in the
-                      background automatically classifies the report in one of
-                      the categories. Please click next.
+                      categories: Low, Medium, and High, and three tense : Past,
+                      Present and Future. The <b>AI-System</b> in the background
+                      automatically classifies the report in one of the
+                      categories. Please click next.
                     </TutorialTooltip>
                   )}
-                  <h2>Explainability Feature 1: Factuality of the report</h2>
+                  <h2>
+                    Explainability Feature 1: <br />
+                    Factuality of highlighted text in average
+                  </h2>
                   <div
                     css={{
                       display: 'flex',
@@ -339,7 +343,7 @@ const NewsItemComponent = ({
                   >
                     <div
                       className={`level ${
-                        newsItem.xaiFeatures.generalFactuality === 'easy'
+                        newsItem.xaiFeatures.generalFactuality === 'low'
                           ? 'selected'
                           : ''
                       }`}
@@ -348,7 +352,7 @@ const NewsItemComponent = ({
                         borderRadius: '4px 0 0 4px',
                       }}
                     >
-                      Easy
+                      Low
                     </div>
                     <div
                       className={`level ${
@@ -357,9 +361,9 @@ const NewsItemComponent = ({
                           : ''
                       }`}
                       css={[
-                        newsItem.xaiFeatures.generalFactuality === 'easy' &&
+                        newsItem.xaiFeatures.generalFactuality === 'low' &&
                           'border-left: none !important',
-                        newsItem.xaiFeatures.generalFactuality === 'hard' &&
+                        newsItem.xaiFeatures.generalFactuality === 'high' &&
                           'border-right: none !important',
                       ]}
                     >
@@ -367,7 +371,7 @@ const NewsItemComponent = ({
                     </div>
                     <div
                       className={`level ${
-                        newsItem.xaiFeatures.generalFactuality === 'hard'
+                        newsItem.xaiFeatures.generalFactuality === 'high'
                           ? 'selected'
                           : ''
                       }`}
@@ -376,7 +380,7 @@ const NewsItemComponent = ({
                         borderRadius: '0 4px 4px 0',
                       }}
                     >
-                      Hard
+                      High
                     </div>
                   </div>
                   <div
@@ -384,7 +388,7 @@ const NewsItemComponent = ({
                       flex: 1,
                     }}
                   >
-                    <h2>Tense</h2>
+                    <h2>Tense of highlighted text in average</h2>
 
                     {/* Tense part */}
                     <div
@@ -430,9 +434,9 @@ const NewsItemComponent = ({
                             : ''
                         }`}
                         css={[
-                          newsItem.xaiFeatures.generalFactuality === 'easy' &&
+                          newsItem.xaiFeatures.generalFactuality === 'low' &&
                             'border-left: none !important',
-                          newsItem.xaiFeatures.generalFactuality === 'hard' &&
+                          newsItem.xaiFeatures.generalFactuality === 'high' &&
                             'border-right: none !important',
                         ]}
                       >
@@ -474,13 +478,13 @@ const NewsItemComponent = ({
                     </TutorialTooltip>
                   )}
                   <h2>
-                    Explainability Feature 2: Text passages, where the
+                    Explainability Feature 2: Highlights, where the
                     AI-System&apos;s SDG detection is based on (for SDG 5)
                   </h2>
                   <div>
                     {newsItem.xaiFeatures.highlightedContent.length == 0 ? (
                       <p>
-                        There is no sentense highlighted by the AI-Classifier
+                        There is no sentence highlighted by the AI-Classifier
                       </p>
                     ) : (
                       <table
@@ -500,7 +504,7 @@ const NewsItemComponent = ({
                       >
                         <thead className="head">
                           <tr>
-                            <th>Sentense</th>
+                            <th>Sentence</th>
                             <th>Factuality</th>
                             <th>Tense</th>
                           </tr>
@@ -635,7 +639,7 @@ const NewsItemComponent = ({
 
                 <FormControl>
                   <FormLabel id="isPresent">
-                    Do you think SDG 5 is present
+                    Do you think SDG 5 is present ?
                   </FormLabel>
                   <RadioGroup
                     aria-labelledby="isPresent"

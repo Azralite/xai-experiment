@@ -13,7 +13,7 @@ const youAreReady = {
     },
     {
       title:
-        'I understand all components of the upcoming task and would like to start the credibility assessment of news items!',
+        'I understand all components of the upcoming task and would like to start the credibility assessment of report items!',
       type: 'boolean',
       renderAs: 'radio',
       valueTrue: 'Yes',

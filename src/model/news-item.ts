@@ -11,7 +11,7 @@ interface NewsItem {
   xaiFeatures: {
     presence: boolean;
     concreatness: number;
-    generalFactuality: 'easy' | 'medium' | 'hard';
+    generalFactuality: 'low' | 'medium' | 'high';
     generalTense: 'past' | 'present' | 'future';
     highlightedContent: Sentence[];
     naturalLanguageExplanation: string;
